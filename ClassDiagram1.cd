@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="CameraManager" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAABCAAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientUI" Collapsed="true">
+    <Position X="30.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGQAQSAQBGAEoAAIAoBgAIAGAARFYCBAwgAjRgwQAEI=</HashCode>
+      <FileName>Assets\Scripts\ClientUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMode" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAFAAEAAAAAQABAAAAEAAAAoAAGQAAYAAAAAgCAAAI=</HashCode>
+      <FileName>Assets\Scripts\Game\GameModes\GameMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameModeNormal" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\GameModes\GameModeNormal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Level" Collapsed="true">
+    <Position X="28.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABACAAAAAAIAAAAIGAAIAAAAEEABQAIAAQAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Game\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="30.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEQCAGIAAIAYgAAHAIEAAQAdFBAAAAAwCxAQACEA=</HashCode>
+      <FileName>Assets\Scripts\Game\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile" Collapsed="true">
+    <Position X="27" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgAAAACCIAAAAQABkEAAAAAgEkAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Game\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HostManager" Collapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAAAACARQgQAQCCAEAABAABBAAgYAAgAAAAIAEA=</HashCode>
+      <FileName>Assets\Scripts\HostManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientEntry" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Interface\ClientEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LayoutGroupScaler" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAABAIAAAAAAQQAAAAgAAAAAAAQAABAEA=</HashCode>
+      <FileName>Assets\Scripts\Interface\LayoutGroupScaler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Playercard" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACAAAEQAAAAEAAAAiAAAACAAAABAAAAAAQgA=</HashCode>
+      <FileName>Assets\Scripts\Interface\Playercard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerResultCard" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAACAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Interface\PlayerResultCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterManager" Collapsed="true">
+    <Position X="17" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAACAAAAAAAAAABAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\CharacterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAIAAAAAAAQAAoAAAAEAAAAAACBAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelManager" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAEAAAAAAAAAAEAAAAAAAEAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\LevelManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatchSceneManager" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUIAABAAIAAAAAACAAAACAEEACQAAAAAAAAAAkA=</HashCode>
+      <FileName>Assets\Scripts\Managers\MatchSceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovieManager" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAABAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\MovieManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionManager" Collapsed="true">
+    <Position X="12.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAAAAAAAkQ=</HashCode>
+      <FileName>Assets\Scripts\Managers\OptionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestionManager" Collapsed="true">
+    <Position X="14.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAEAAABkAAAABAACAAAAEAQAAAAAEAgAAAAAAEI=</HashCode>
+      <FileName>Assets\Scripts\Managers\QuestionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Settings" Collapsed="true">
+    <Position X="23.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager" Collapsed="true">
+    <Position X="19.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAEAAAABAAAB0AAAAQAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileManager" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\TileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatchData" Collapsed="true">
+    <Position X="30.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgAAIDAAACAKEIAQCACQsAYgEAGABAAAAhAQAqIABQI=</HashCode>
+      <FileName>Assets\Scripts\MatchData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatchMakerManager" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAARAABAAAAAAAAgKAAgIAAIAACAAAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\MatchMakerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuControl" Collapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAIACAAAAAAAACAAAAgAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuLobbyDisplayer" Collapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABABAAAgAAAAAAAAAAAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuLobbyDisplayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuLobbyEntry" Collapsed="true">
+    <Position X="28.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAkAAAAAABAAAAAAAAAAgAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuLobbyEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuLoginManager" Collapsed="true">
+    <Position X="30.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIgAAASCAAAAkAAAAAgIBAgAgAAAAAAAYgAACAkA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuLoginManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuNetworkManager" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAgCAAAAAgAAAAAAAgAAAAABIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuNetworkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuPanel" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuServerDisplayer" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACBABAAAAAAAAAAAAAAAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuServerDisplayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuServerEntry" Collapsed="true">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAIAAAAAAAAAAAIAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuServerEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuUtil" Collapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKgAAAACBAAABgAAgAAAAAAAAgEAAAIAAAAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Menu\MenuUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerData" Collapsed="true">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAAAACCAAAAABgBCMSgIEBACFoEABAAEAAEAAAFI=</HashCode>
+      <FileName>Assets\Scripts\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestionReader" Collapsed="true">
+    <Position X="27" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Question\QuestionReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreboardEntry" Collapsed="true">
+    <Position X="30.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAEQAAAAAAAAAgAQAA=</HashCode>
+      <FileName>Assets\Scripts\ScoreboardEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServerUI" Collapsed="true">
+    <Position X="21.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAACIgAEAIgAAIAABCAIACIIQkIAkgggABQgQAAUA=</HashCode>
+      <FileName>Assets\Scripts\ServerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrayUtils" Collapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAACAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\ArrayUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraFade" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAABAAQAAAAAAhoAAAAQQAAABAABYAAACAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Util\Camera\CameraFade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraFadeOnStart" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAABAAAEAAAIAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Util\Camera\CameraFadeOnStart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnumUtils" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\EnumUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtensionMethods" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAABAIAAAAAAAAAAAAAAAAAAEAAIAAAQAAAAUECA=</HashCode>
+      <FileName>Assets\Scripts\Util\ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MD5" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\MD5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneWatcher" Collapsed="true">
+    <Position X="28.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Util\SceneWatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\Singleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplashScreen" Collapsed="true">
+    <Position X="25.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAABAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Buff" Collapsed="true">
+    <Position X="23.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Character" Collapsed="true">
+    <Position X="25.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAEAACAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Managers\CharacterManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Question" Collapsed="true">
+    <Position X="28.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAgAAAAAAAAAAEAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Question\QuestionReader.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MultiplechoiceAnswer" Collapsed="true">
+    <Position X="27" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Question\QuestionReader.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Answer" Collapsed="true">
+    <Position X="21.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Question\QuestionReader.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="PlayerMoveType" Collapsed="true">
+    <Position X="23.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAgAAEAAAAAEAQAAAAAAAACBAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Game\Player.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BuffType" Collapsed="true">
+    <Position X="21.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAABAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\BuffType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Direction" Collapsed="true">
+    <Position X="25.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\Util\ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dimension" Collapsed="true">
+    <Position X="23.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAMAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MatchState" Collapsed="true">
+    <Position X="27" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAA0AAAAAAIBAAAgAAAAEAAACCQAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\MatchState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MoveType" Collapsed="true">
+    <Position X="28.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Util\MoveType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MultipleChoiceAnswer" Collapsed="true">
+    <Position X="30.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\MultipleChoiceAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Permission" Collapsed="true">
+    <Position X="21.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACABAAAAAAAAAAAAAAAAAAAAAAAgAAAAQ=</HashCode>
+      <FileName>Assets\Scripts\Util\Permission.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="QuestionType" Collapsed="true">
+    <Position X="25.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Scripts\Util\QuestionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="8.77" />
+</ClassDiagram>

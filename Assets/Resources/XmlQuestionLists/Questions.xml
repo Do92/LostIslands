@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Wat is de hoofdstad van Nederland?</QuestionText>
+		<OptionA>Amsterdam</OptionA>
+		<OptionB>Groningen</OptionB>
+		<OptionC>Rotterdam</OptionC>
+		<OptionD>Friesla... hahahah nee</OptionD>
+		<CorrectOption>a</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welke munteenheid word op het moment gebruikt in Nederland?</QuestionText>
+		<OptionA>Gulden</OptionA>
+		<OptionB>Euro</OptionB>
+		<OptionC>Dollar</OptionC>
+		<OptionD>Pond</OptionD>
+		<CorrectOption>b</CorrectOption>
+	</Question>
+	
+	<Question type="multipleChoiceItem">
+		<QuestionText>8 x 8 = ?</QuestionText>
+		<OptionA>24</OptionA>
+		<OptionB>66</OptionB>
+		<OptionC>64</OptionC>
+		<OptionD>82</OptionD>
+		<CorrectOption>c</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Jij ... (vul in)</QuestionText>
+		<OptionA>liepte</OptionA>
+		<OptionB>lopte</OptionB>
+		<OptionC>loop</OptionC>
+		<OptionD>loopt</OptionD>
+		<CorrectOption>d</CorrectOption>
+	</Question>
+</QuestionList>

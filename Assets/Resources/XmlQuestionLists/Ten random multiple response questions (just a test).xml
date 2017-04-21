@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+  <Question type="multipleResponseItem">
+    <QuestionText>Which of the following items can be attracted to a magnet?</QuestionText>
+    <OptionA validity="correct">Iron nails</OptionA>
+    <OptionB validity="incorrect">Granite rocks</OptionB>
+    <OptionC validity="incorrect">Aluminium cans</OptionC>
+    <OptionD validity="incorrect">Brass hinges</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>Which of the following dwarves lived with Snow White in the woods?</QuestionText>
+    <OptionA validity="correct">Bashful</OptionA>
+    <OptionB validity="incorrect">Beaky</OptionB>
+    <OptionC validity="correct">Doc</OptionC>
+    <OptionD validity="correct">Dopey</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>Which of these are types of clouds?</QuestionText>
+    <OptionA validity="correct">Stratus</OptionA>
+    <OptionB validity="incorrect">Nebulus</OptionB>
+    <OptionC validity="correct">Cirrus</OptionC>
+    <OptionD validity="incorrect">Cumulus</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>Which of the following elements are used to form water?</QuestionText>
+    <OptionA validity="correct">Hydrogen</OptionA>
+    <OptionB validity="incorrect">Helium</OptionB>
+    <OptionC validity="incorrect">Carbon</OptionC>
+    <OptionD validity="correct">Oxygen</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>Which of the following is the major positive ion outside cells?</QuestionText>
+    <OptionA validity="incorrect">Potassium</OptionA>
+    <OptionB validity="incorrect">Hydrogen</OptionB>
+    <OptionC validity="incorrect">Nitrogen</OptionC>
+    <OptionD validity="correct">Sodium</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>Select all the countries which are in North American continent</QuestionText>
+    <OptionA validity="correct">USA</OptionA>
+    <OptionB validity="correct">Mexico</OptionB>
+    <OptionC validity="incorrect">Brazil</OptionC>
+    <OptionD validity="correct">Canada</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>What causes night and day?</QuestionText>
+    <OptionA validity="correct">The earth spins on its axis</OptionA>
+    <OptionB validity="incorrect">The earth moves around the sun</OptionB>
+    <OptionC validity="incorrect">Clouds block out the sun's light</OptionC>
+    <OptionD validity="incorrect">The earth moves into and out of the sun's shadow</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>What are beaches generally composed of?</QuestionText>
+    <OptionA validity="incorrect">Bedrock</OptionA>
+    <OptionB validity="correct">Pebbles</OptionB>
+    <OptionC validity="incorrect">Clay</OptionC>
+    <OptionD validity="correct">Sand</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>Which of the following integers are multiples of both 2 and 3?</QuestionText>
+    <OptionA validity="correct">12</OptionA>
+    <OptionB validity="correct">18</OptionB>
+    <OptionC validity="incorrect">21</OptionC>
+    <OptionD validity="correct">36</OptionD>
+  </Question>
+  <Question type="multipleResponseItem">
+    <QuestionText>Which of the following pizza toppings does Lorenzo like?</QuestionText>
+    <OptionA validity="correct">Mozzarella</OptionA>
+    <OptionB validity="correct">Onion</OptionB>
+    <OptionC validity="correct">Pepper</OptionC>
+    <OptionD validity="incorrect">Salami</OptionD>
+  </Question>
+</QuestionList>

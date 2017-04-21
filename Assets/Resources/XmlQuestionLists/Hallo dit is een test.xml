@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Luigi?</QuestionText>
+		<OptionA>The Legend of Zelda</OptionA>
+		<OptionB>Super Mario</OptionB>
+		<OptionC>Pokemon</OptionC>
+		<OptionD>Street Fighter</OptionD>
+		<CorrectOption>b</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Bulbasaur?</QuestionText>
+		<OptionA>Call of Duty</OptionA>
+		<OptionB>Final Fantasy</OptionB>
+		<OptionC>Pokemon</OptionC>
+		<OptionD>Digimon</OptionD>
+		<CorrectOption>c</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Doctor Eggman?</QuestionText>
+		<OptionA>Sonic the Hedgehog</OptionA>
+		<OptionB>Super Mario</OptionB>
+		<OptionC>Pacman</OptionC>
+		<OptionD>Minecraft</OptionD>
+		<CorrectOption>a</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Steve?</QuestionText>
+		<OptionA>Mortal Combat</OptionA>
+		<OptionB>Minecraft</OptionB>
+		<OptionC>Uncharted</OptionC>
+		<OptionD>Final Fantasy</OptionD>
+		<CorrectOption>b</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Chun-Li?</QuestionText>
+		<OptionA>Mortal Combat</OptionA>
+		<OptionB>Street Fighter</OptionB>
+		<OptionC>Ninja Gaiden</OptionC>
+		<OptionD>Wii Sports</OptionD>
+		<CorrectOption>b</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Kratos?</QuestionText>
+		<OptionA>Gears of War</OptionA>
+		<OptionB>The Legends of Zelda</OptionB>
+		<OptionC>Counter Strike</OptionC>
+		<OptionD>God of War</OptionD>
+		<CorrectOption>d</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Ganondorf?</QuestionText>
+		<OptionA>Super Mario</OptionA>
+		<OptionB>God of War</OptionB>
+		<OptionC>Splinter Cell</OptionC>
+		<OptionD>The Legends of Zelda</OptionD>
+		<CorrectOption>d</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Niko Bellic?</QuestionText>
+		<OptionA>Bioshock</OptionA>
+		<OptionB>Grand Theft Auto</OptionB>
+		<OptionC>Guitar Hero</OptionC>
+		<OptionD>Call of Duty</OptionD>
+		<CorrectOption>b</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Cloud Strife?</QuestionText>
+		<OptionA>Punch-Out!!</OptionA>
+		<OptionB>Half-Life</OptionB>
+		<OptionC>Final Fantasy</OptionC>
+		<OptionD>Guitar Hero</OptionD>
+		<CorrectOption>c</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Big Daddy?</QuestionText>
+		<OptionA>Bioshock</OptionA>
+		<OptionB>Call of Duty</OptionB>
+		<OptionC>God of War</OptionC>
+		<OptionD>Medal of Honour</OptionD>
+		<CorrectOption>a</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Gordon Freeman?</QuestionText>
+		<OptionA>Half-Life</OptionA>
+		<OptionB>Ninja Gaiden</OptionB>
+		<OptionC>Rollercoaster Tycoon</OptionC>
+		<OptionD>Splinter Cell</OptionD>
+		<CorrectOption>a</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage John Price?</QuestionText>
+		<OptionA>Call of Duty</OptionA>
+		<OptionB>Rainbow Six</OptionB>
+		<OptionC>Minecraft</OptionC>
+		<OptionD>Grand Theft Auto</OptionD>
+		<CorrectOption>a</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Sam Fisher?</QuestionText>
+		<OptionA>Medal of Honour</OptionA>
+		<OptionB>The legends of Zelda</OptionB>
+		<OptionC>Gears of War</OptionC>
+		<OptionD>Splinter Cell</OptionD>
+		<CorrectOption>d</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Marcus Fenix?</QuestionText>
+		<OptionA>Gears of War</OptionA>
+		<OptionB>Battle Toads</OptionB>
+		<OptionC>Wii Sports</OptionC>
+		<OptionD>Silent Hill</OptionD>
+		<CorrectOption>a</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Bald Bull?</QuestionText>
+		<OptionA>Punch-Out</OptionA>
+		<OptionB>Super Mario</OptionB>
+		<OptionC>Minecraft</OptionC>
+		<OptionD>Half-Life</OptionD>
+		<CorrectOption>a</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Ryu Hayabusa?</QuestionText>
+		<OptionA>Mortal Combat</OptionA>
+		<OptionB>Tekken</OptionB>
+		<OptionC>Ninja Gaiden</OptionC>
+		<OptionD>Street Fighter</OptionD>
+		<CorrectOption>c</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Lars Ümlaut?</QuestionText>
+		<OptionA>Call of Duty</OptionA>
+		<OptionB>Guitar Hero</OptionB>
+		<OptionC>Grand Theft Auto</OptionC>
+		<OptionD>Medal of Honour</OptionD>
+		<CorrectOption>b</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage John Clark?</QuestionText>
+		<OptionA>Rainbow Six</OptionA>
+		<OptionB>Bioshock</OptionB>
+		<OptionC>Pokemon</OptionC>
+		<OptionD>Final Fantasy</OptionD>
+		<CorrectOption>a</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Niko Bellic?</QuestionText>
+		<OptionA>Bioshock</OptionA>
+		<OptionB>Grand Theft Auto</OptionB>
+		<OptionC>Guitar Hero</OptionC>
+		<OptionD>Call of Duty</OptionD>
+		<CorrectOption>b</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Professor Oak?</QuestionText>
+		<OptionA>Dead Labs</OptionA>
+		<OptionB>Bioshock</OptionB>
+		<OptionC>Half-Life</OptionC>
+		<OptionD>Pokemon</OptionD>
+		<CorrectOption>d</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Welkin Gunther?</QuestionText>
+		<OptionA>Medal of Honour</OptionA>
+		<OptionB>Final Fantasy</OptionB>
+		<OptionC>Valkyria Chronicles</OptionC>
+		<OptionD>Call of Duty</OptionD>
+		<CorrectOption>c</CorrectOption>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Van welke game series komt het personage Cortana?</QuestionText>
+		<OptionA>Mass Effect</OptionA>
+		<OptionB>Halo</OptionB>
+		<OptionC>Valkyria Chronicles</OptionC>
+		<OptionD>Pacman</OptionD>
+		<CorrectOption>b</CorrectOption>
+	</Question>
+</QuestionList>
