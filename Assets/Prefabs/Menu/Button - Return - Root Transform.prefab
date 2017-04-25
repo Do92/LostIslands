@@ -5,12 +5,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 22479344}
-  - component: {fileID: 22291686}
-  - component: {fileID: 11455988}
-  - component: {fileID: 11413624}
+  - 224: {fileID: 22479344}
+  - 222: {fileID: 22291686}
+  - 114: {fileID: 11455988}
+  - 114: {fileID: 11413624}
   m_Layer: 5
   m_Name: Button - Return
   m_TagString: Untagged
@@ -23,9 +23,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 22436418}
+  - 224: {fileID: 22436418}
   m_Layer: 5
   m_Name: Button - Return - Root Transform
   m_TagString: Untagged
@@ -104,9 +104,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 1171a78552e4b274296a0a75f0aedae6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1ea0f8c3c43c5da4589f3a5a87a28809, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -131,7 +131,6 @@ RectTransform:
   - {fileID: 22479344}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.02059884, y: 0.006666667}
   m_AnchorMax: {x: 0.149, y: 0.19933334}
   m_AnchoredPosition: {x: -18.219696, y: 1.875946}
@@ -149,7 +148,6 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22436418}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 27, y: 0}
