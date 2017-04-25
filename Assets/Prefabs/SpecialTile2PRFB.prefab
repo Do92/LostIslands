@@ -23,7 +23,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 418188}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tile_Special_Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - 4: {fileID: 471950}
   - 33: {fileID: 3356600}
   - 23: {fileID: 2314090}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Special_Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,9 +139,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 168342}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.009995527, y: 0.20619443, z: 0.010717096}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.09633278, y: 0.0067413533, z: 0.11183938, w: 0.98902303}
+  m_LocalPosition: {x: -0.0099954605, y: 0.2061944, z: 0.010717154}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children: []
   m_Father: {fileID: 418188}
   m_RootOrder: 0
@@ -152,8 +152,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 9.221, y: 1.37, z: 2.62}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children:
   - {fileID: 418188}
   - {fileID: 411662}
