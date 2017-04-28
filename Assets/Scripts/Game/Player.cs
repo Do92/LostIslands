@@ -99,26 +99,26 @@ namespace Game
 
         // Set the player's color
         // If called on a server it will automatically do this on all clients
-        public void SetColor(Color mainColor, Color emissionColor)
+        public void SetColor(Color emissionColor)
         {
             foreach (Renderer renderer in Renderers)
             {
-                renderer.material.color = mainColor; // Sets the main color
+                //renderer.material.color = mainColor; // Sets the main color
 
-                renderer.material.SetFloat("_Metallic", 1.0f); // Makes it more visible and shiny like a robot
+                //renderer.material.SetFloat("_Metallic", 1.0f); // Makes it more visible and shiny like a robot
 
                 renderer.material.EnableKeyword("_EMISSION"); // Makes me able to use the method below
                 renderer.material.SetColor("_EmissionColor", emissionColor);
             }
 
             if (isServer)
-                RpcSetColor(mainColor, emissionColor);
+                RpcSetColor(emissionColor);
         }
 
         [ClientRpc]
-        private void RpcSetColor(Color mainColor, Color emissionColor)
+        private void RpcSetColor(Color emissionColor)
         {
-            SetColor(mainColor, emissionColor);
+            SetColor(emissionColor);
         }
 
         public void SetPushedBy(int playerId)

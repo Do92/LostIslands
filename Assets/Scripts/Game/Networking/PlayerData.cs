@@ -16,7 +16,7 @@ namespace Game.Networking
         [HideInInspector]
         public int Id;
 
-        public Color MainColor;
+        //public Color MainColor;
         public Color EmissionColor; // This makes the main color for the character itself lighter
         public Color EyeFadeColor; // Used for the scoreboard entry
         public Sprite Image;

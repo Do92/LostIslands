@@ -45,7 +45,7 @@ namespace Game
         {
             SteppedOnAmount = 1;
             IsCorner = false;
-            animator = GetComponent<Animator>();
+            //animator = GetComponent<Animator>();
 
             #region Fade animation curve initialization with SetFadeAnimationCurve (remove if this becomes unnecessary)
             //foreach (AnimationClip animationClip in animator.runtimeAnimatorController.animationClips)
@@ -66,7 +66,7 @@ namespace Game
             Invoke("PlaySpawnAnimation", Random.Range(SpawnAnimationTime.x, SpawnAnimationTime.y));
         }
 
-        private void LateUpdate()
+        /*private void LateUpdate()
         {
             // When spawning this will set the color with the new fade alpha that has just been updated by the animator
             if (!animator.GetBool("IsDoneSpawning"))
@@ -80,7 +80,7 @@ namespace Game
                 SetFadeAlpha("Cube", 1.0f);
                 SetFadeAlpha("Cube/Buff", 1.0f);
             }
-        }
+        }*/
 
         // This will set the new fade alpha value for the initial spawning
         private void SetFadeAlpha(string childGameObject, float newFadeAlpha)
@@ -116,7 +116,7 @@ namespace Game
         }*/
         #endregion
 
-        private void PlaySpawnAnimation()
+        /*private void PlaySpawnAnimation()
         {
             animator.Play("GridCubeSpawn");
         }
@@ -124,7 +124,7 @@ namespace Game
         public void StopSpawnAnimation()
         {
             animator.SetBool("IsDoneSpawning", true);
-        }
+        }*/
 
         // Will be called on the server when a player moves on this tile
         // This will handle setting and removing any existing buffs as well as the tile conquering and controlling functionality
@@ -139,7 +139,7 @@ namespace Game
 
                 // Setting buffs and color of the new owner
                 GiveBuffs(player.PlayerData, true);
-                StartCoroutine(LerpToColor(player.PlayerData.Character.MainColor));
+                StartCoroutine(LerpToColor(player.PlayerData.Character.EmissionColor));
             }
 
             // Set the new tile owner if the tile isn't already locked
@@ -155,7 +155,7 @@ namespace Game
                 // Here we fade to the tile color partially for the first step
                 if (SteppedOnAmount == 1)
                 {
-                    switch (player.PlayerData.Character.MainColor.ToName())
+					switch (player.PlayerData.Character.EmissionColor.ToName())
                     {
                         case "red":
                             StartCoroutine(LerpToColor(new Color(0.5f, 0.0f, 0.0f, 1.0f)));
@@ -173,7 +173,7 @@ namespace Game
                             StartCoroutine(LerpToColor(new Color(0.5f, 0.0f, 0.5f, 1.0f)));
                             break;
                         case "orange":
-                            StartCoroutine(LerpToColor(new Color(0.5f, 64.0f / 255.0f, 0.0f, 1.0f)));
+						StartCoroutine(LerpToColor(new Color(0.5f, (64.0f / 255.0f), 0.0f, 1.0f)));
                             break;
                     }
                 }
@@ -183,7 +183,7 @@ namespace Game
                 else if (player.PlayerData.Equals(ownerData))
                 {
                     ownerData.AddScore(1);
-                    StartCoroutine(LerpToColor(player.PlayerData.Character.MainColor));
+                    StartCoroutine(LerpToColor(player.PlayerData.Character.EmissionColor));
 
                     return; // TODO: finish this tile conquer & control functionality
                     #region NewCode
@@ -232,7 +232,7 @@ namespace Game
                             // Check if we have any open spots on the outermost border? Although they do need to be saved somewhere first..
 
                             foreach (Tile affectedTile in affectedTiles)
-                                SetLocked(affectedTile, player.PlayerData.Character.MainColor);
+                                SetLocked(affectedTile, player.PlayerData.Character.EmissionColor);
 
                             break; // out of this loop, because there are no more targets left
                             // there must be 1..* tile sets with and/or without border
@@ -242,14 +242,14 @@ namespace Game
                         affectedTiles.Add(currentTarget);
 
                         // If we immediately find a square shaped link loop around the current target as the center tile, we'll lock it and continue with the next target
-                        if (FindSquareLinkLoop(currentTarget, player.PlayerData.Character.MainColor)) // skipOtherAffectedTiles?
+						if (FindSquareLinkLoop(currentTarget, player.PlayerData.Character.EmissionColor)) // skipOtherAffectedTiles?
                         {
-                            SetLocked(currentTarget, player.PlayerData.Character.MainColor);
+							SetLocked(currentTarget, player.PlayerData.Character.EmissionColor);
                             continue;
                         }
 
                         // Adds all the affected lockable tiles and updates the specified lockableTiles reference (as in removing the involved tiles from recursively continuing the search)
-                        affectedTiles.AddRange(FindAffectedTiles(currentTarget, ref lockableTiles, player.PlayerData.Character.MainColor));
+						affectedTiles.AddRange(FindAffectedTiles(currentTarget, ref lockableTiles, player.PlayerData.Character.EmissionColor));
 
                         //keep setting lockable surrounding neighbor targets (maybe with a separate queue or list)
                         //foreach neighbor target set above

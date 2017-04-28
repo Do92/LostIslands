@@ -101,7 +101,7 @@ namespace Game
                     UnityEngine.Debug.Log("Spawning player for \"" + playerData.PlayerId + "\"");
 
                 player.Register(playerData.PlayerId);
-                player.SetColor(playerData.Character.MainColor, playerData.Character.EmissionColor);
+                player.SetColor(playerData.Character.EmissionColor);
                 player.DoInitialMove(GetSpawnPoint());
             }
         }

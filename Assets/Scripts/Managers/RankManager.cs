@@ -37,7 +37,7 @@ namespace Managers
                 rankedPlayerData.Add(bestCalculatedScore);
             }
 
-            RotatingRobot.material.color = rankedPlayerData[0].Character.MainColor;
+			RotatingRobot.material.color = rankedPlayerData[0].Character.EmissionColor;
         }
 
         public void SetRanking()

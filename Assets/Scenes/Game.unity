@@ -1095,6 +1095,22 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 159275256}
+    - target: {fileID: 182844, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137536, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 123408, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 144210, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
   m_IsPrefabParent: 0
@@ -2428,18 +2444,18 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 610801320}
-    - target: {fileID: 11425320, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
-      propertyPath: MenuPanelManager
-      value: 
-      objectReference: {fileID: 159275256}
-    - target: {fileID: 11434110, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
-      propertyPath: MenuPanelManager
-      value: 
-      objectReference: {fileID: 159275256}
     - target: {fileID: 11461524, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
       propertyPath: RotatingRobot
       value: 
       objectReference: {fileID: 1279949418}
+    - target: {fileID: 11434110, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
+      propertyPath: MenuPanelManager
+      value: 
+      objectReference: {fileID: 159275256}
+    - target: {fileID: 11425320, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
+      propertyPath: MenuPanelManager
+      value: 
+      objectReference: {fileID: 159275256}
     - target: {fileID: 178252, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
       propertyPath: m_Name
       value: Canvas - Client

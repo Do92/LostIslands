@@ -10,6 +10,9 @@ GameObject:
   - 4: {fileID: 403556}
   - 33: {fileID: 3378014}
   - 23: {fileID: 2362520}
+  - 95: {fileID: 9560702}
+  - 114: {fileID: 11443336}
+  - 114: {fileID: 11472906}
   m_Layer: 0
   m_Name: Tile_Medium
   m_TagString: Untagged
@@ -24,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 9.24, y: 0, z: 3.58}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -63,6 +66,74 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119352}
   m_Mesh: {fileID: 4300000, guid: 0e4061ed3d730ea408e6075af09f7841, type: 3}
+--- !u!95 &9560702
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119352}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11443336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 234
+    i1: 161
+    i2: 239
+    i3: 130
+    i4: 224
+    i5: 171
+    i6: 160
+    i7: 100
+    i8: 106
+    i9: 158
+    i10: 216
+    i11: 62
+    i12: 75
+    i13: 32
+    i14: 43
+    i15: 128
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &11472906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16a6b2f93c1a61648bb85df8e5fa198f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileId: 0
+  CanSpawnOn: 1
+  TileName: Default
+  SpawnAnimationTime: {x: 0, y: 0}
+  BuffCollection: []
+  Renderer: {fileID: 0}
+  SteppedOnAmount: 0
+  IsCorner: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

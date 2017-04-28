@@ -16,7 +16,7 @@ namespace Menu
 
         public void Initialize(PlayerData playerData)
         {
-            Color color = playerData.Character.MainColor;
+			Color color = playerData.Character.EmissionColor;
             color.a = PlayerColor.color.a;
             PlayerColor.color = color;
 

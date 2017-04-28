@@ -10,6 +10,9 @@ GameObject:
   - 4: {fileID: 420414}
   - 33: {fileID: 3381528}
   - 23: {fileID: 2303928}
+  - 95: {fileID: 9594626}
+  - 114: {fileID: 11492940}
+  - 114: {fileID: 11484048}
   m_Layer: 0
   m_Name: Tile_Small
   m_TagString: Untagged
@@ -24,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.2, y: 0, z: 2.64}
+  m_LocalPosition: {x: 12.2, y: 0.24, z: 3.57}
   m_LocalScale: {x: 0.8, y: 0.6, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -63,6 +66,74 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166534}
   m_Mesh: {fileID: 4300000, guid: c73ab05e8c5651e46b8307f0aaa8a026, type: 3}
+--- !u!95 &9594626
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166534}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11484048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16a6b2f93c1a61648bb85df8e5fa198f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileId: 0
+  CanSpawnOn: 1
+  TileName: Default
+  SpawnAnimationTime: {x: 0, y: 0}
+  BuffCollection: []
+  Renderer: {fileID: 0}
+  SteppedOnAmount: 0
+  IsCorner: 0
+--- !u!114 &11492940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 85
+    i1: 248
+    i2: 128
+    i3: 25
+    i4: 39
+    i5: 121
+    i6: 186
+    i7: 180
+    i8: 73
+    i9: 222
+    i10: 61
+    i11: 136
+    i12: 202
+    i13: 66
+    i14: 154
+    i15: 240
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
