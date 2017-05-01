@@ -244,7 +244,9 @@ namespace Game
                             startPosition = transform.position;
                             targetPosition = moveAnimation.Position.ToVector3(positionY);
 
-                            while (transform.position != targetPosition)
+                          //Add animation clips here!  
+
+						while (transform.position != targetPosition)
                             {
                                 amount += MoveSpeed * Time.deltaTime;
                                 transform.position = Vector3.Lerp(startPosition, targetPosition, amount);
