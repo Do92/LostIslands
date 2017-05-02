@@ -277,6 +277,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1 &139576480 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 188944, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
+  m_PrefabInternal: {fileID: 70246885}
 --- !u!114 &364247004 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11445194, guid: 8051e8f55ba3db349b25f003c85a8d48,
@@ -518,12 +522,17 @@ MonoBehaviour:
   - {fileID: 2042385176}
   - {fileID: 1374187837}
   LogoutButtons:
+  - {fileID: 1420804936}
+  - {fileID: 1457777437}
+  - {fileID: 139576480}
   - {fileID: 1174741482}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1092029374}
   StartServerButton: {fileID: 379293168}
+  startServerPanel: {fileID: 1780424986}
+--- !u!1 &1092029374 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 116288, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
+  m_PrefabInternal: {fileID: 70246885}
 --- !u!1 &1174741482 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 160790, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
@@ -669,6 +678,14 @@ Canvas:
 GameObject:
   m_PrefabParentObject: {fileID: 176254, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
   m_PrefabInternal: {fileID: 70246885}
+--- !u!1 &1420804936 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 119158, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
+  m_PrefabInternal: {fileID: 70246885}
+--- !u!1 &1457777437 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 156900, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
+  m_PrefabInternal: {fileID: 70246885}
 --- !u!1 &1654782871
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +760,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!1 &1780424986 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 134298, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
+  m_PrefabInternal: {fileID: 70246885}
 --- !u!114 &1818332171 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11401302, guid: 8051e8f55ba3db349b25f003c85a8d48,

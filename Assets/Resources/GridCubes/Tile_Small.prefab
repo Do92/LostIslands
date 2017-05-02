@@ -94,12 +94,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16a6b2f93c1a61648bb85df8e5fa198f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TileId: 0
+  TileId: 1
   CanSpawnOn: 1
-  TileName: Default
-  SpawnAnimationTime: {x: 0, y: 0}
+  TileName: Ground
+  SpawnAnimationTime: {x: 0, y: 2}
   BuffCollection: []
-  Renderer: {fileID: 0}
+  Renderer: {fileID: 2303928}
   SteppedOnAmount: 0
   IsCorner: 0
 --- !u!114 &11492940
@@ -116,22 +116,22 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 85
-    i1: 248
-    i2: 128
-    i3: 25
-    i4: 39
-    i5: 121
-    i6: 186
-    i7: 180
-    i8: 73
-    i9: 222
-    i10: 61
-    i11: 136
-    i12: 202
-    i13: 66
-    i14: 154
-    i15: 240
+    i0: 13
+    i1: 69
+    i2: 187
+    i3: 221
+    i4: 91
+    i5: 170
+    i6: 49
+    i7: 244
+    i8: 171
+    i9: 48
+    i10: 147
+    i11: 155
+    i12: 100
+    i13: 26
+    i14: 10
+    i15: 47
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
 --- !u!1001 &100100000

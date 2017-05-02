@@ -218,35 +218,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterCollection:
   - Id: 0
-    MainColor: {r: 1, g: 0, b: 0, a: 1}
     EmissionColor: {r: 0.21960784, g: 0, b: 0, a: 1}
     EyeFadeColor: {r: 0.61764705, g: 0.2634083, b: 0.2634083, a: 1}
     Image: {fileID: 21300000, guid: 2d84f2572208edb4bb688b57a44e6818, type: 3}
     Name: V<size=20> </size>u<size=15> </size>u<size=15> </size>r<size=45> </size>R<size=12>
       </size>o<size=14> </size>b<size=17> </size>o<size=8> </size>t
   - Id: 0
-    MainColor: {r: 0, g: 1, b: 0, a: 1}
     EmissionColor: {r: 0, g: 0.16078432, b: 0, a: 1}
     EyeFadeColor: {r: 0.2627451, g: 0.54901963, b: 0.4627451, a: 1}
     Image: {fileID: 21300000, guid: e4f1215d66b55834abba240171e305b6, type: 3}
     Name: G<size=15> </size>i<size=12> </size>f<size=45> </size>R<size=12> </size>o<size=14>
       </size>b<size=17> </size>o<size=8> </size>t
   - Id: 0
-    MainColor: {r: 0, g: 0, b: 1, a: 1}
     EmissionColor: {r: 0, g: 0, b: 0.2627451, a: 1}
     EyeFadeColor: {r: 0.2784314, g: 0.45882353, b: 0.7490196, a: 1}
     Image: {fileID: 21300000, guid: 8c81428d8b05a064eaf674b32e13cbd9, type: 3}
     Name: W<size=3> </size>a<size=3> </size>t<size=15> </size>e<size=11> </size>r<size=45>
       </size>R<size=12> </size>o<size=14> </size>b<size=17> </size>o<size=8> </size>t
   - Id: 0
-    MainColor: {r: 1, g: 1, b: 0, a: 1}
     EmissionColor: {r: 0.23137255, g: 0.23137255, b: 0, a: 1}
     EyeFadeColor: {r: 0.8627451, g: 0.8862745, b: 0.43137255, a: 1}
     Image: {fileID: 21300000, guid: 1edb1568c3e4b3a4ca516f443454015f, type: 3}
     Name: L<size=12> </size>i<size=12> </size>c<size=15> </size>h<size=12> </size>t<size=45>
       </size>R<size=12> </size>o<size=14> </size>b<size=17> </size>o<size=8> </size>t
   - Id: 0
-    MainColor: {r: 1, g: 0, b: 1, a: 1}
     EmissionColor: {r: 0.15294118, g: 0, b: 0.23137255, a: 1}
     EyeFadeColor: {r: 0.69803923, g: 0.4, b: 0.5294118, a: 1}
     Image: {fileID: 21300000, guid: a2c6c04795ba1dd48997df0464033bc9, type: 3}
@@ -254,7 +249,6 @@ MonoBehaviour:
       </size>e<size=45> </size>R<size=12> </size>o<size=14> </size>b<size=17> </size>o<size=8>
       </size>t
   - Id: 0
-    MainColor: {r: 1, g: 0.5019608, b: 0, a: 1}
     EmissionColor: {r: 0.19607843, g: 0.09019608, b: 0, a: 1}
     EyeFadeColor: {r: 0.8862745, g: 0.56078434, b: 0.3529412, a: 1}
     Image: {fileID: 21300000, guid: b0cd8be9748d13d4f95b75e267813740, type: 3}
@@ -491,7 +485,7 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 0}
+  m_PlayerPrefab: {fileID: 165470, guid: 2f90447606490ec45834ed1af1a1e64f, type: 2}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
   m_OfflineScene: 
@@ -500,10 +494,10 @@ MonoBehaviour:
   - {fileID: 165470, guid: 2f90447606490ec45834ed1af1a1e64f, type: 2}
   - {fileID: 111136, guid: 09986eaa26f71474982a5d8b25c112a4, type: 2}
   - {fileID: 157028, guid: e0a0bf9b941b9064f894bc9e0bd85d35, type: 2}
-  - {fileID: 169642, guid: 60275d3a1040912418e9833150e7a48a, type: 2}
-  - {fileID: 164374, guid: f07c154390cb3a849b717f50a2f92eea, type: 2}
-  - {fileID: 143020, guid: b5541acc7395e5d4989dc8460b438f17, type: 2}
-  - {fileID: 157708, guid: bd8b275480260b34ba0c1956d6d69c3c, type: 2}
+  - {fileID: 166534, guid: 0d45bbdd5baa31f4ab30939b641a0a2f, type: 2}
+  - {fileID: 166534, guid: f55bd0bbd4c2a9848aec044b03b8c568, type: 2}
+  - {fileID: 166534, guid: e1cc30c7a949cf641a501a9558b51ddf, type: 2}
+  - {fileID: 166534, guid: 842dd5cf2a5a24c4a8a0767131327a2a, type: 2}
   m_CustomConfig: 1
   m_MaxConnections: 6
   m_ConnectionConfig:

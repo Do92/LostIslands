@@ -4,6 +4,8 @@ using Managers.Menu;
 //using Menu;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using System.Linq;
 
 namespace Miscellaneous
 {
@@ -22,11 +24,12 @@ namespace Miscellaneous
         public bool IsPlayingMovie;
 
         // Using this because the conditional directive didn't work as the DEBUG symbol was always defined
-        public bool ShowDebugMessages = false;
+        private bool ShowDebugMessages = true;
 
         // Initialization
         private void Start()
         {
+            MenuPanelManager = GameObject.FindObjectOfType<MenuPanelManager>();
             if (!IsPlayingMovie)
             {
                 if (ShowDebugMessages)
@@ -68,7 +71,16 @@ namespace Miscellaneous
 #elif (UNITY_STANDALONE || UNITY_EDITOR)
 
             // Loading the asset bundle
-            AssetBundle myLoadedAssetBundle = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, MovieAssetBundleName));
+
+            AssetBundle myLoadedAssetBundle = null;
+            try
+            {
+                myLoadedAssetBundle = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, MovieAssetBundleName));
+            }
+            catch(Exception ex)
+            {
+                Debug.LogError(ex);
+            }
 
             // Validation
             if (myLoadedAssetBundle == null)
@@ -138,6 +150,9 @@ namespace Miscellaneous
             //MenuPanelManager.ShowPanel(MenuPanelToShowAfterwards);
             //MenuPanelToShowAfterwards.SetActive(true);
             gameObject.SetActive(false);
+
+            if (MenuPanelManager == null)
+                MenuPanelManager = Helpers.FindObjectsOfTypeAll<MenuPanelManager>().First();
 
             MenuPanelManager.EnableTheMagicallyDisabledPanel(); // Quick-fix for the disappearing menu main screen content panel
 

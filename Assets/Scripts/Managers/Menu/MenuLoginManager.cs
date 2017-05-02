@@ -29,6 +29,7 @@ namespace Managers.Menu
         public GameObject[] LoginButtons;
         public GameObject[] LogoutButtons;
         public Button StartServerButton;
+        public GameObject startServerPanel;
 
         private GameManager gameManager;
 
@@ -54,9 +55,9 @@ namespace Managers.Menu
         public void Login()
         {
             // Temporarily giving myself direct permission on button click (don't forget to change the event of Button - Login back to ShowPanel from Canvas - Menu)
-            //PlayerPrefs.SetInt(GameManager.PermissionKey, 1);
-            //PlayerPrefs.Save();
-            //SetLoggedIn(true);
+            PlayerPrefs.SetInt(GameManager.PermissionKey, 1);
+            PlayerPrefs.Save();
+            SetLoggedIn(true);
 
             //string md5Hash = MD5.Encrypt(UsernameField.text + gameManager.EncryptionSalt + PasswordField.text);
 
@@ -131,6 +132,7 @@ namespace Managers.Menu
             foreach (GameObject logoutButton in LogoutButtons)
                 logoutButton.SetActive(isLoggedIn);
             StartServerButton.gameObject.SetActive(isLoggedIn);
+            startServerPanel.SetActive(isLoggedIn);
         }
     }
 }

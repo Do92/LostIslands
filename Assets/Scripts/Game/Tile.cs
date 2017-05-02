@@ -45,7 +45,7 @@ namespace Game
         {
             SteppedOnAmount = 1;
             IsCorner = false;
-            //animator = GetComponent<Animator>();
+            animator = GetComponent<Animator>();
 
             #region Fade animation curve initialization with SetFadeAnimationCurve (remove if this becomes unnecessary)
             //foreach (AnimationClip animationClip in animator.runtimeAnimatorController.animationClips)
@@ -116,7 +116,7 @@ namespace Game
         }*/
         #endregion
 
-        /*private void PlaySpawnAnimation()
+        private void PlaySpawnAnimation()
         {
             animator.Play("GridCubeSpawn");
         }
@@ -124,7 +124,7 @@ namespace Game
         public void StopSpawnAnimation()
         {
             animator.SetBool("IsDoneSpawning", true);
-        }*/
+        }
 
         // Will be called on the server when a player moves on this tile
         // This will handle setting and removing any existing buffs as well as the tile conquering and controlling functionality
@@ -173,7 +173,7 @@ namespace Game
                             StartCoroutine(LerpToColor(new Color(0.5f, 0.0f, 0.5f, 1.0f)));
                             break;
                         case "orange":
-						StartCoroutine(LerpToColor(new Color(0.5f, (64.0f / 255.0f), 0.0f, 1.0f)));
+						    StartCoroutine(LerpToColor(new Color(0.5f, (64.0f / 255.0f), 0.0f, 1.0f)));
                             break;
                     }
                 }

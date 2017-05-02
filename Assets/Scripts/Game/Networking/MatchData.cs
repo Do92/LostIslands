@@ -34,7 +34,7 @@ namespace Game.Networking
         public GameMode CurrentGameMode;
         public Level Level;
 
-        public bool Debug = false;
+        private bool Debug = true;
 
         [Header("Values")]
         public int GameScene;

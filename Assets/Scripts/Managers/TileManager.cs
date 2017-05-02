@@ -2,6 +2,7 @@
 using Game;
 using Miscellaneous;
 using System.Collections.Generic;
+using UnityEngine.Networking;
 
 namespace Managers
 {
@@ -24,7 +25,9 @@ namespace Managers
                 Debug.LogError("No grid cubes have been loaded!");
 
             foreach (Tile gridCube in gridCubes)
+            {
                 tileCollection[gridCube.TileId] = gridCube;
+            }
         }
 
         // Return a tile by a given tile id, will return null if tile is not present
