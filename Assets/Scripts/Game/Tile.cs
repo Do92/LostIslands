@@ -39,6 +39,7 @@ namespace Game
 
         private PlayerData ownerData;
         private Animator animator;
+        private bool healed;
 
         public int SteppedOnAmount;
         public bool IsCorner; // is edge if false
@@ -152,7 +153,7 @@ namespace Game
 //                SteppedOnAmount++;
 
             // Set the new tile color based on the stepped-on amount, excluding any buffed tiles
-            if (BuffCollection.Length <= 0)
+            if (BuffCollection.Length <= 0 && !healed)
             {
                 // Here we fade to the tile color partially for the first step
                 if (SteppedOnAmount == 1)
@@ -188,6 +189,7 @@ namespace Game
                 else if (SteppedOnAmount == 2)
                 {
                     player.PlayerData.AddScore(1);
+                    healed = true;
                     //ownerData.AddScore(1);
                     SetMaterial(SteppedOnAmount - 1);
                     //StartCoroutine(LerpToColor(player.PlayerData.Character.EmissionColor));
