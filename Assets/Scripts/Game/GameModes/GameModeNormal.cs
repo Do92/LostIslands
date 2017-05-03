@@ -13,7 +13,7 @@ namespace Game.GameModes
             MatchData.ChangeMatchState(MatchStateType.Loading);
 
             amountOfTurns = QuestionManager.Instance.QuestionList.Count;
-
+            Debug.Log("Amount of turns:" + amountOfTurns);
             bool allPlayersLoaded = false;
 
             // Check if all players are loaded

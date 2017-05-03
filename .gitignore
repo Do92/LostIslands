@@ -43,3 +43,7 @@ Thumbs.db.meta
 obj/
 Assets/Sync/
 Assets/StreamingAssets/
+.idea/
+Assets/Plugins/Editor/JetBrains/RiderAssetPostprocessor.cs
+Assets/Plugins/Editor/JetBrains/
+Assets/Plugins/Editor/JetBrains.meta

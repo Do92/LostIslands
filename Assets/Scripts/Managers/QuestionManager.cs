@@ -124,6 +124,7 @@ namespace Managers
 
             using (XmlReader reader = XmlReader.Create(new StringReader(xmlQuestionList.text)))
             {
+                reader.MoveToContent();
                 // Read(add) all question items
                 while (reader.Read())
                 {
@@ -158,7 +159,7 @@ namespace Managers
                                 reader.ReadToFollowing("CorrectOption");
 
                                 AnswerData answerKeyData = (AnswerData)Enum.Parse(typeof(AnswerData), reader.ReadString(), true);
-
+                                
                                 reader.ReadToFollowing("Description");
 
                                 string description = reader.ReadString();

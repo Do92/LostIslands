@@ -34,6 +34,8 @@ namespace Game
         public Vector2 SpawnAnimationTime = new Vector2(0, 2);
         public BuffInfo[] BuffCollection;
         public Renderer Renderer;
+        public int RendererMaterialIndex;
+        public Material[] StepMaterials;
 
         private PlayerData ownerData;
         private Animator animator;
@@ -143,11 +145,11 @@ namespace Game
             }
 
             // Set the new tile owner if the tile isn't already locked
-            if (!player.PlayerData.Equals(ownerData) && SteppedOnAmount == 1)
-                ownerData = player.PlayerData;
-            // Lock the tile if the same owner stepped on this tile for the second time
-            else if (player.PlayerData.Equals(ownerData) && SteppedOnAmount == 1)
-                SteppedOnAmount++;
+//            if (!player.PlayerData.Equals(ownerData) && SteppedOnAmount == 1)
+//                ownerData = player.PlayerData;
+//            // Lock the tile if the same owner stepped on this tile for the second time
+//            else if (player.PlayerData.Equals(ownerData) && SteppedOnAmount == 1)
+//                SteppedOnAmount++;
 
             // Set the new tile color based on the stepped-on amount, excluding any buffed tiles
             if (BuffCollection.Length <= 0)
@@ -155,35 +157,40 @@ namespace Game
                 // Here we fade to the tile color partially for the first step
                 if (SteppedOnAmount == 1)
                 {
-					switch (player.PlayerData.Character.EmissionColor.ToName())
-                    {
-                        case "red":
-                            StartCoroutine(LerpToColor(new Color(0.5f, 0.0f, 0.0f, 1.0f)));
-                            break;
-                        case "green":
-                            StartCoroutine(LerpToColor(new Color(0.0f, 0.5f, 0.0f, 1.0f)));
-                            break;
-                        case "blue":
-                            StartCoroutine(LerpToColor(new Color(0.0f, 0.0f, 0.5f, 1.0f)));
-                            break;
-                        case "yellow":
-                            StartCoroutine(LerpToColor(new Color(0.5f, 0.5f, 0.0f, 1.0f)));
-                            break;
-                        case "purple":
-                            StartCoroutine(LerpToColor(new Color(0.5f, 0.0f, 0.5f, 1.0f)));
-                            break;
-                        case "orange":
-						    StartCoroutine(LerpToColor(new Color(0.5f, (64.0f / 255.0f), 0.0f, 1.0f)));
-                            break;
-                    }
+                    if(StepMaterials.Length > (SteppedOnAmount -1))
+                        SetMaterial(SteppedOnAmount - 1);
+					//switch (player.PlayerData.Character.EmissionColor.ToName())
+     //               {
+     //                   case "red":
+     //                       StartCoroutine(LerpToColor(new Color(0.5f, 0.0f, 0.0f, 1.0f)));
+     //                       break;
+     //                   case "green":
+     //                       StartCoroutine(LerpToColor(new Color(0.0f, 0.5f, 0.0f, 1.0f)));
+     //                       break;
+     //                   case "blue":
+     //                       StartCoroutine(LerpToColor(new Color(0.0f, 0.0f, 0.5f, 1.0f)));
+     //                       break;
+     //                   case "yellow":
+     //                       StartCoroutine(LerpToColor(new Color(0.5f, 0.5f, 0.0f, 1.0f)));
+     //                       break;
+     //                   case "purple":
+     //                       StartCoroutine(LerpToColor(new Color(0.5f, 0.0f, 0.5f, 1.0f)));
+     //                       break;
+     //                   case "orange":
+					//	    StartCoroutine(LerpToColor(new Color(0.5f, (64.0f / 255.0f), 0.0f, 1.0f)));
+     //                       break;
+     //               }
+                    SteppedOnAmount++;
                 }
                 // Here we fade to the tile color completely for the second step
                 // As well as rewarding the score points to the player for locking a single tile and/or completing a link loop
                 // The lockable tiles from within the link loops of default or partial color will become the same color as the locked tiles of the loop
-                else if (player.PlayerData.Equals(ownerData))
+                else if (SteppedOnAmount == 2)
                 {
-                    ownerData.AddScore(1);
-                    StartCoroutine(LerpToColor(player.PlayerData.Character.EmissionColor));
+                    player.PlayerData.AddScore(1);
+                    //ownerData.AddScore(1);
+                    SetMaterial(SteppedOnAmount - 1);
+                    //StartCoroutine(LerpToColor(player.PlayerData.Character.EmissionColor));
 
                     return; // TODO: finish this tile conquer & control functionality
                     #region NewCode
@@ -668,7 +675,7 @@ namespace Game
         // If called on a server it will automatically do this on all clients
         public void SetColor(Color color)
         {
-            Renderer.material.color = color;
+            Renderer.materials[RendererMaterialIndex].color = color;
 
             if (isServer)
                 RpcSetColor(color);
@@ -678,6 +685,25 @@ namespace Game
         private void RpcSetColor(Color color)
         {
             SetColor(color);
+        }
+
+        public void SetMaterial(int index)
+        {
+            if (StepMaterials.Length > index)
+            {
+                Material[] mats = Renderer.materials;
+                mats[RendererMaterialIndex] = StepMaterials[index];
+                Renderer.materials = mats;
+
+                if (isServer)
+                    RpcSetMaterial(index);
+            }
+        }
+
+        [ClientRpc]
+        public void RpcSetMaterial(int index)
+        {
+            SetMaterial(index);
         }
 
         // Give all tile's buffs to a player

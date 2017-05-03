@@ -288,7 +288,7 @@ namespace Game
                             if (moveAnimation.Action == MoveActionType.Initial)
                             {
                                 yield return new WaitForSeconds(LevelBuildTime);
-                                //GetComponentInChildren<SkinnedMeshRenderer>().enabled = true;
+                                GetComponentInChildren<SkinnedMeshRenderer>().enabled = true;
                             }
 
                             while (transform.position.y > targetPosition.y)
