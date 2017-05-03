@@ -107,8 +107,8 @@ namespace Game
 
                 //renderer.material.SetFloat("_Metallic", 1.0f); // Makes it more visible and shiny like a robot
 
-                renderer.material.EnableKeyword("_EMISSION"); // Makes me able to use the method below
-                renderer.material.SetColor("_EmissionColor", emissionColor);
+                renderer.materials[0].SetColor("_Color", emissionColor);
+                //renderer.material.SetColor("_EmissionColor", emissionColor);
             }
 
             if (isServer)

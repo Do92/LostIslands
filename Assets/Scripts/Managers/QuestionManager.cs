@@ -159,7 +159,7 @@ namespace Managers
                                 reader.ReadToFollowing("CorrectOption");
 
                                 AnswerData answerKeyData = (AnswerData)Enum.Parse(typeof(AnswerData), reader.ReadString(), true);
-                                
+
                                 reader.ReadToFollowing("Description");
 
                                 string description = reader.ReadString();
