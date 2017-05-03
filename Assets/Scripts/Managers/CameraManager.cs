@@ -34,7 +34,7 @@ namespace Managers
             {
                 // Zooms in on a player that has the game turn and is a client (otherwise the main server screen would also zoom in)
                 Player playerWithTurn = matchData.Level.GetPlayer(matchData.CurrentTurnId);
-                Vector3 targetPosition = playerWithTurn.Position.ToVector3(0.0f);
+                Vector3 targetPosition = playerWithTurn.gameObject.transform.position;
                 targetPosition += OffsetPosition;
 
                 transform.position = Vector3.Lerp(transform.position, targetPosition, LerpSpeed * Time.deltaTime);

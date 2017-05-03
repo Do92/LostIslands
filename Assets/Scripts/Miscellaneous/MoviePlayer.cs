@@ -36,6 +36,7 @@ namespace Miscellaneous
                     Debug.Log("Playing the cutscene automatically");
 
                 StartCoroutine(PlayCutscene());
+                SkipMovie();
             }
             else if (ShowDebugMessages)
                 Debug.Log("Cutscene is already playing");

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Game.Networking;
 using Managers;
 using Miscellaneous;
+using UnityEngine.Events;
 
 namespace Game
 {
@@ -43,7 +44,7 @@ namespace Game
                     GameObject tileObject = Instantiate(tile.gameObject, new Vector3(x, tile.transform.position.y, y), Quaternion.identity) as GameObject;
                     tileObject.transform.parent = transform;
 
-                    tileObject.GetComponent<Tile>().OnTileHealed += () => healedTileCount++;
+                    tileObject.GetComponent<Tile>().OnTileHealed = new UnityAction(()=>healedTileCount++);
 
                     NetworkServer.Spawn(tileObject);
 

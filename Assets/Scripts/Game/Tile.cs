@@ -716,10 +716,13 @@ namespace Game
 
         public void HealTile()
         {
-            OnTileHealed.Invoke();
+            if (OnTileHealed != null)
+            {
+                OnTileHealed.Invoke();
 
-            if(isServer)
-                RpcHealTile();
+                if (isServer)
+                    RpcHealTile();
+            }
         }
 
         [ClientRpc]

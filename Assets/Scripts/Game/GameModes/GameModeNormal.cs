@@ -140,9 +140,9 @@ namespace Game.GameModes
                     MatchData.ChangeMatchState(MatchStateType.FadeToBlack);
                     yield return new WaitForSeconds(RegularFadeTime);
 
-                    MatchData.ChangeMatchState(MatchStateType.Outro);
+                    //MatchData.ChangeMatchState(MatchStateType.Outro);
 
-                    yield return StartCoroutine(MatchData.MatchSceneManager.PlayOutroCutscene());
+                    //yield return StartCoroutine(MatchData.MatchSceneManager.PlayOutroCutscene());
 
                     MatchData.ChangeMatchState(MatchStateType.GameOverMenu);
 
