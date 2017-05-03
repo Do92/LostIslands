@@ -114,13 +114,13 @@ namespace Game.Networking
             switch (buff)
             {
                 case BuffType.Movement:
-                    MovementBuffs += amount;
+                    MovementBuffs = amount;
                     break;
                 case BuffType.Range:
-                    RangeBuffs += amount;
+                    RangeBuffs = amount;
                     break;
                 case BuffType.Strength:
-                    StrengthBuffs += amount;
+                    StrengthBuffs = amount;
                     break;
             }
 
