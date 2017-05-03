@@ -117,7 +117,8 @@ namespace Game.Networking
                     SendAnswer();
                     break;
                 case MatchStateType.QuestionResult:
-                    questionResultAnimation.Play(PlayMode.StopAll);
+                    //questionResultAnimation.Play(PlayMode.StopAll);
+                    QuestionResultPanel.gameObject.SetActive(true);
                     QuestionResultState();
                     break;
                 case MatchStateType.Player:
@@ -152,7 +153,8 @@ namespace Game.Networking
                 QuestionPanel,
                 GamePanel,
                 GameTurnPanel,
-                ScorePanel
+                ScorePanel,
+                QuestionResultPanel
             };
 
             foreach (RectTransform panel in panelsToHide)

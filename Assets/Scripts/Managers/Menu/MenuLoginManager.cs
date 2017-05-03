@@ -25,6 +25,9 @@ namespace Managers.Menu
         public string LoadingText;
         public string ErrorText;
 
+        public string username;
+        public string password;
+
         [Header("Buttons")]
         public GameObject[] LoginButtons;
         public GameObject[] LogoutButtons;
@@ -55,10 +58,12 @@ namespace Managers.Menu
         public void Login()
         {
             // Temporarily giving myself direct permission on button click (don't forget to change the event of Button - Login back to ShowPanel from Canvas - Menu)
-            PlayerPrefs.SetInt(GameManager.PermissionKey, 1);
-            PlayerPrefs.Save();
-            SetLoggedIn(true);
-
+            if (UsernameField.text == username && PasswordField.text == password)
+            {
+                PlayerPrefs.SetInt(GameManager.PermissionKey, 1);
+                PlayerPrefs.Save();
+                SetLoggedIn(true);
+            }
             //string md5Hash = MD5.Encrypt(UsernameField.text + gameManager.EncryptionSalt + PasswordField.text);
 
             //Debug.Log("MD5: " + md5Hash);
