@@ -122,7 +122,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22490540, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 22490540, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -190,7 +190,7 @@ Prefab:
       objectReference: {fileID: 1049731075}
     - target: {fileID: 22440382, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
       propertyPath: m_SizeDelta.y
-      value: -128.02777
+      value: -130.98413
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8051e8f55ba3db349b25f003c85a8d48, type: 2}
@@ -601,6 +601,8 @@ MonoBehaviour:
   StatusText: {fileID: 1207045648}
   LoadingText: Bezig met inloggen...
   ErrorText: 'Fout met inloggen: '
+  username: 1
+  password: 1
   LoginButtons:
   - {fileID: 677601133}
   - {fileID: 377677727}

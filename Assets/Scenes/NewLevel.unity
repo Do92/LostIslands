@@ -3436,6 +3436,26 @@ Prefab:
       propertyPath: RotatingRobot
       value: 
       objectReference: {fileID: 1056896787}
+    - target: {fileID: 171082, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 112636, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 110518, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22480172, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.9999857
+      objectReference: {fileID: 0}
+    - target: {fileID: 22480172, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7114f8a6d8ffefe4c895496d6da5772d, type: 2}
   m_IsPrefabParent: 0
@@ -7928,7 +7948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1589292497
 Transform:
   m_ObjectHideFlags: 0

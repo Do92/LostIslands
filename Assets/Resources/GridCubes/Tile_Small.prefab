@@ -25,6 +25,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 420414}
+  - 95: {fileID: 9548170}
+  - 114: {fileID: 11466786}
+  - 114: {fileID: 11486728}
   m_Layer: 0
   m_Name: Tile_Small
   m_TagString: Untagged
@@ -90,6 +93,78 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145032}
   m_Mesh: {fileID: 4300000, guid: aa7fe8f7ace956140aae87054c61d49c, type: 3}
+--- !u!95 &9548170
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166534}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 198375bc228fa51439d42f6d4eebc20e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11466786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 13
+    i1: 69
+    i2: 187
+    i3: 221
+    i4: 91
+    i5: 170
+    i6: 49
+    i7: 244
+    i8: 171
+    i9: 48
+    i10: 147
+    i11: 155
+    i12: 100
+    i13: 26
+    i14: 10
+    i15: 47
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &11486728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16a6b2f93c1a61648bb85df8e5fa198f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileId: 1
+  CanSpawnOn: 1
+  TileName: Ground
+  SpawnAnimationTime: {x: 0, y: 2}
+  BuffCollection: []
+  Renderer: {fileID: 2343554}
+  RendererMaterialIndex: 0
+  StepMaterials:
+  - {fileID: 2100000, guid: 6beef4f6999b5844fa5ef982541b6349, type: 2}
+  - {fileID: 2100000, guid: b89fed422d231f04487007f6df0fcdf5, type: 2}
+  SteppedOnAmount: 0
+  IsCorner: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
