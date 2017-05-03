@@ -12,6 +12,8 @@ namespace Game
         public bool Debug = false;
 
         public Tile[,] LevelTiles;
+        public int tileCount { get; private set; }
+        public int healedTileCount { get; private set; }
         private Dictionary<int, Player> players = new Dictionary<int, Player>();
 
         private MatchData matchData;
@@ -36,8 +38,12 @@ namespace Game
                     if (tile == null)
                         continue;
 
+                    tileCount++;
+
                     GameObject tileObject = Instantiate(tile.gameObject, new Vector3(x, tile.transform.position.y, y), Quaternion.identity) as GameObject;
                     tileObject.transform.parent = transform;
+
+                    tileObject.GetComponent<Tile>().OnTileHealed += () => healedTileCount++;
 
                     NetworkServer.Spawn(tileObject);
 
