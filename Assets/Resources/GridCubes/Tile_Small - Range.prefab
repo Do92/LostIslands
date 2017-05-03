@@ -216,7 +216,7 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_Materials:
   - {fileID: 2100000, guid: 92703da9d93f0ce4fbc84b455f6ef7a6, type: 2}
-  - {fileID: 2100000, guid: b89fed422d231f04487007f6df0fcdf5, type: 2}
+  - {fileID: 2100000, guid: 1ced820649f44d54890ae4beb049dbdf, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -367,13 +367,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileId: 4
-  CanSpawnOn: 1
+  CanSpawnOn: 0
   TileName: Strength Buff
   SpawnAnimationTime: {x: 0, y: 2}
   BuffCollection:
-  - Type: 1
+  - Type: 2
     Power: 1
   Renderer: {fileID: 2303928}
+  RendererMaterialIndex: 1
+  StepMaterials:
+  - {fileID: 2100000, guid: 6beef4f6999b5844fa5ef982541b6349, type: 2}
+  - {fileID: 2100000, guid: b89fed422d231f04487007f6df0fcdf5, type: 2}
   SteppedOnAmount: 0
   IsCorner: 0
 --- !u!114 &11492940

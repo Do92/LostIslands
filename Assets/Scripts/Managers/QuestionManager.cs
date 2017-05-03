@@ -124,6 +124,7 @@ namespace Managers
 
             using (XmlReader reader = XmlReader.Create(new StringReader(xmlQuestionList.text)))
             {
+                reader.MoveToContent();
                 // Read(add) all question items
                 while (reader.Read())
                 {
