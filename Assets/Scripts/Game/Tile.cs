@@ -6,6 +6,7 @@ using Managers;
 using UnityEngine;
 using UnityEngine.Networking;
 using Miscellaneous;
+using UnityEngine.Events;
 using Random = UnityEngine.Random;
 
 namespace Game
@@ -36,6 +37,8 @@ namespace Game
         public Renderer Renderer;
         public int RendererMaterialIndex;
         public Material[] StepMaterials;
+
+        public UnityAction OnTileHealed;
 
         private PlayerData ownerData;
         private Animator animator;
@@ -190,6 +193,9 @@ namespace Game
                 {
                     player.PlayerData.AddScore(1);
                     healed = true;
+
+                    HealTile();
+
                     //ownerData.AddScore(1);
                     SetMaterial(SteppedOnAmount - 1);
                     //StartCoroutine(LerpToColor(player.PlayerData.Character.EmissionColor));
@@ -707,6 +713,21 @@ namespace Game
         {
             SetMaterial(index);
         }
+
+        public void HealTile()
+        {
+            OnTileHealed.Invoke();
+
+            if(isServer)
+                RpcHealTile();
+        }
+
+        [ClientRpc]
+        public void RpcHealTile()
+        {
+            HealTile();
+        }
+
 
         // Give all tile's buffs to a player
         public void GiveBuffs(PlayerData playerData, bool addBuffPower)

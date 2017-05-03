@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Game;
 using Game.Networking;
 using UnityEngine;
@@ -26,16 +27,17 @@ namespace Managers
             List<PlayerData> allPlayerData = new List<PlayerData>(matchData.GetAllPlayerData().Values);
             rankedPlayerData.Clear();
 
-            for (int i = 0; i < allPlayerData.Count; i++)
-            {
-                PlayerData bestCalculatedScore = allPlayerData[i]; // Initial best
-
-                foreach (PlayerData comparisonPlayerdata in allPlayerData)
-                    if (bestCalculatedScore.Score < comparisonPlayerdata.Score)
-                        bestCalculatedScore = comparisonPlayerdata; // Eventually the final best
-
-                rankedPlayerData.Add(bestCalculatedScore);
-            }
+            rankedPlayerData = allPlayerData.OrderByDescending(x => x.Score).ToList();
+//            for (int i = 0; i < allPlayerData.Count; i++)
+//            {
+//                PlayerData bestCalculatedScore = allPlayerData[i]; // Initial best
+//
+//                foreach (PlayerData comparisonPlayerdata in allPlayerData)
+//                    if (bestCalculatedScore.Score < comparisonPlayerdata.Score)
+//                        bestCalculatedScore = comparisonPlayerdata; // Eventually the final best
+//
+//                rankedPlayerData.Add(bestCalculatedScore);
+//            }
 
 			RotatingRobot.material.color = rankedPlayerData[0].Character.EmissionColor;
         }
