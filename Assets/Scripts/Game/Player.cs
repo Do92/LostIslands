@@ -59,6 +59,7 @@ namespace Game
         public float SpawnHeight = 10.0f;
         public float DieDepth = -10.0f;
         public Renderer[] Renderers;
+        public GameObject turnIndicator;
 
         private MatchData matchData;
         private float positionY;

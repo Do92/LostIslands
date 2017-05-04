@@ -41,10 +41,11 @@ namespace Game
 
                     tileCount++;
 
-                    GameObject tileObject = Instantiate(tile.gameObject, new Vector3(x, tile.transform.position.y, y), Quaternion.identity) as GameObject;
+                    GameObject tileObject = Instantiate(tile.gameObject, new Vector3(x, tile.transform.position.y, y),
+                                                        Quaternion.identity) as GameObject;
                     tileObject.transform.parent = transform;
 
-                    tileObject.GetComponent<Tile>().OnTileHealed = new UnityAction(()=>healedTileCount++);
+                    tileObject.GetComponent<Tile>().OnTileHealed = new UnityAction(() => healedTileCount++);
 
                     NetworkServer.Spawn(tileObject);
 
@@ -76,7 +77,9 @@ namespace Game
                         break;
                     }
                 }
-                if (continueLooping) continue; // Skips to next iteration
+
+                if (continueLooping)
+                    continue; // Skips to next iteration
 
                 Tile tile = GetTile(position);
                 if (tile != null && tile.CanSpawnOn)
@@ -91,6 +94,14 @@ namespace Game
                 UnityEngine.Debug.Log("Registering player for \"" + player.PlayerId + "\"");
 
             players.Add(player.PlayerId, player);
+        }
+
+        public void SetTurnIndicator(int playerId)
+        {
+            for (int i = 0; i < players.Count; i++)
+            {
+                players[i].turnIndicator.SetActive(i == playerId);
+            }
         }
 
         // Spawn all physical players, this gets the player prefab and spawns it with bound PlayerData
@@ -185,25 +196,29 @@ namespace Game
             PlayerData playerData = specifiedPlayer.PlayerData;
 
             moveOptions[(int)DirectionType.Up] = specifiedPlayer.Position.y + 1 >= LevelTiles.GetLength(1)
-                ? MoveOptionType.Disabled
-                : LevelTiles[(int)specifiedPlayer.Position.x, (int)specifiedPlayer.Position.y + 1] == null
-                    ? MoveOptionType.Disabled
-                    : MoveOptionType.Move;
+                                                     ? MoveOptionType.Disabled
+                                                     : LevelTiles[(int)specifiedPlayer.Position.x,
+                                                                  (int)specifiedPlayer.Position.y + 1] == null
+                                                         ? MoveOptionType.Disabled
+                                                         : MoveOptionType.Move;
             moveOptions[(int)DirectionType.Right] = specifiedPlayer.Position.x + 1 >= LevelTiles.GetLength(0)
-                ? MoveOptionType.Disabled
-                : LevelTiles[(int)specifiedPlayer.Position.x + 1, (int)specifiedPlayer.Position.y] == null
-                    ? MoveOptionType.Disabled
-                    : MoveOptionType.Move;
+                                                        ? MoveOptionType.Disabled
+                                                        : LevelTiles[(int)specifiedPlayer.Position.x + 1,
+                                                                     (int)specifiedPlayer.Position.y] == null
+                                                            ? MoveOptionType.Disabled
+                                                            : MoveOptionType.Move;
             moveOptions[(int)DirectionType.Down] = specifiedPlayer.Position.y - 1 < 0
-                ? MoveOptionType.Disabled
-                : LevelTiles[(int)specifiedPlayer.Position.x, (int)specifiedPlayer.Position.y - 1] == null
-                    ? MoveOptionType.Disabled
-                    : MoveOptionType.Move;
+                                                       ? MoveOptionType.Disabled
+                                                       : LevelTiles[(int)specifiedPlayer.Position.x,
+                                                                    (int)specifiedPlayer.Position.y - 1] == null
+                                                           ? MoveOptionType.Disabled
+                                                           : MoveOptionType.Move;
             moveOptions[(int)DirectionType.Left] = specifiedPlayer.Position.x - 1 < 0
-                ? MoveOptionType.Disabled
-                : LevelTiles[(int)specifiedPlayer.Position.x - 1, (int)specifiedPlayer.Position.y] == null
-                    ? MoveOptionType.Disabled
-                    : MoveOptionType.Move;
+                                                       ? MoveOptionType.Disabled
+                                                       : LevelTiles[(int)specifiedPlayer.Position.x - 1,
+                                                                    (int)specifiedPlayer.Position.y] == null
+                                                           ? MoveOptionType.Disabled
+                                                           : MoveOptionType.Move;
 
             foreach (Player otherPlayer in players.Values)
             {
@@ -236,7 +251,8 @@ namespace Game
         // Gets a specific tile, will return null if out of range
         public Tile GetTile(Vector2 position)
         {
-            if (position.x < 0 || position.x >= LevelTiles.GetLength(0) || position.y < 0 || position.y >= LevelTiles.GetLength(1))
+            if (position.x < 0 || position.x >= LevelTiles.GetLength(0) || position.y < 0 ||
+                position.y >= LevelTiles.GetLength(1))
                 return null;
 
             return LevelTiles[(int)position.x, (int)position.y];

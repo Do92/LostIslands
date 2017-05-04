@@ -174,6 +174,7 @@ namespace Game.Networking
                 UnityEngine.Debug.Log("Game Client: Match turn changed to " + playerId);
 
             CurrentTurnId = playerId;
+            Level.SetTurnIndicator(playerId);
             MatchSceneManager.SetTurn(playerId);
         }
 

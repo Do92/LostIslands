@@ -8,6 +8,9 @@ namespace Game.GameModes
 {
     public class GameModeNormal : GameMode
     {
+
+        public float endscreenTime = 10;
+
         private IEnumerator Start()
         {
             MatchData.ChangeMatchState(MatchStateType.Loading);
@@ -140,8 +143,9 @@ namespace Game.GameModes
                     MatchData.ChangeMatchState(MatchStateType.FadeToBlack);
                     yield return new WaitForSeconds(RegularFadeTime);
 
-                    //MatchData.ChangeMatchState(MatchStateType.Outro);
+                    MatchData.ChangeMatchState(MatchStateType.Outro);
 
+                    yield return new WaitForSeconds(endscreenTime);
                     //yield return StartCoroutine(MatchData.MatchSceneManager.PlayOutroCutscene());
 
                     MatchData.ChangeMatchState(MatchStateType.GameOverMenu);
