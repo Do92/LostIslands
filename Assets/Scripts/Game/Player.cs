@@ -61,6 +61,7 @@ namespace Game
         public Renderer[] Renderers;
         public GameObject turnIndicator;
         public GameObject scoreParticle;
+        public GameObject pushParticle;
 
         private MatchData matchData;
         private float positionY;

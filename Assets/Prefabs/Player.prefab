@@ -1804,6 +1804,7 @@ MonoBehaviour:
   - {fileID: 13718248}
   turnIndicator: {fileID: 142792}
   scoreParticle: {fileID: 157040, guid: 4059e94a1f8a8964a851b6af18dfe547, type: 2}
+  pushParticle: {fileID: 157040, guid: a6bc92a0fe36474438b25b063ada62d2, type: 2}
 --- !u!137 &13718248
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

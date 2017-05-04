@@ -148,6 +148,9 @@ namespace Game
                 {
                     if (otherPlayer.Position == newPlayerPosition)
                     {
+                        if(player.pushParticle != null)
+                            Instantiate(player.pushParticle, player.transform.position, player.transform.rotation);
+
                         pushedPlayers.Add(otherPlayer);
                         newPlayerPosition = newPlayerPosition.GetRelative(direction);
 
