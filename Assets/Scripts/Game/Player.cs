@@ -60,6 +60,7 @@ namespace Game
         public float DieDepth = -10.0f;
         public Renderer[] Renderers;
         public GameObject turnIndicator;
+        public GameObject scoreParticle;
 
         private MatchData matchData;
         private float positionY;

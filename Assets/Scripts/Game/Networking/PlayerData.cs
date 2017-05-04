@@ -18,6 +18,7 @@ namespace Game.Networking
 
         //public Color MainColor;
         public Color EmissionColor; // This makes the main color for the character itself lighter
+
         public Color EyeFadeColor; // Used for the scoreboard entry
         public Sprite Image;
         public string Name;
@@ -34,12 +35,17 @@ namespace Game.Networking
         public int CharacterId;
 
         public int Score;
+
         [SyncVar]
         public int ActionPoints;
+
         [SyncVar]
         public ClientResponseInfo LastResponse;
 
-        public CharacterInfo Character { get { return CharacterManager.Instance.GetCharacter(CharacterId); } }
+        public CharacterInfo Character
+        {
+            get { return CharacterManager.Instance.GetCharacter(CharacterId); }
+        }
 
         public int MovementBuffs;
         public int StrengthBuffs;
@@ -47,6 +53,7 @@ namespace Game.Networking
 
         public bool IsLoaded;
         public bool HasAnsweredCorrectly;
+
         public bool HasAnswered;
         //public List<bool> AnswerResults; // Question list is shuffled and so will this -_-
 
@@ -93,6 +100,10 @@ namespace Game.Networking
         {
             if (isServer)
                 RpcAddScore(score);
+
+            Player p = matchData.Level.GetPlayer(PlayerId);
+            if (p.scoreParticle != null)
+                GameObject.Instantiate(p.scoreParticle, p.transform.position, Quaternion.identity);
 
             Score += score;
             matchData.MatchSceneManager.UpdatePlayerCards();
@@ -169,7 +180,8 @@ namespace Game.Networking
         public void GiveActionPoints()
         {
             // Answered
-            if (!LastResponse.IsQuestionAnswered || !QuestionManager.ValidateAnswerKeyData(matchData.CurrentQuestion, LastResponse, isServer))
+            if (!LastResponse.IsQuestionAnswered ||
+                !QuestionManager.ValidateAnswerKeyData(matchData.CurrentQuestion, LastResponse, isServer))
             {
                 ActionPoints = matchData.CurrentGameMode.IncorrectAnswerPoints + MovementBuffs;
                 HasAnsweredCorrectly = false;
