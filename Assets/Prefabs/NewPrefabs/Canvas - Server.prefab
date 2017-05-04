@@ -391,7 +391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &115208
 GameObject:
   m_ObjectHideFlags: 1
@@ -1631,7 +1631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &148714
 GameObject:
   m_ObjectHideFlags: 1
@@ -2330,7 +2330,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &172362
 GameObject:
   m_ObjectHideFlags: 1
@@ -2399,7 +2399,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &174484
 GameObject:
   m_ObjectHideFlags: 1
@@ -2572,7 +2572,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &181056
 GameObject:
   m_ObjectHideFlags: 1
@@ -3385,7 +3385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &199440
 GameObject:
   m_ObjectHideFlags: 1
@@ -3831,9 +3831,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: P<size=3> </size>a<size=10> </size>a<size=12> </size>r<size=12> </size>s<size=12>
-    </size>e<size=25> </size>R<size=12> </size>o<size=14> </size>b<size=17> </size>o<size=8>
-    </size>t
+  m_Text: 'P<size=3> </size>a<size=10> </size>a<size=12> </size>r<size=12> </size>s<size=12> '
 --- !u!114 &11407430
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4731,8 +4729,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: O<size=6> </size>r<size=9> </size>a<size=12> </size>n<size=12> </size>j<size=12>
-    </size>e<size=25> </size>R<size=12> </size>o<size=14> </size>b<size=17> </size>o<size=8>
-    </size>t
+    </size>e<size=25>
 --- !u!114 &11421602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4959,8 +4956,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: V<size=20> </size>u<size=15> </size>u<size=15> </size>r<size=25> </size>R<size=12>
-    </size>o<size=14> </size>b<size=17> </size>o<size=8> </size>t
+  m_Text: R<size=20> </size>o<size=15> </size>o<size=15> </size>d<size=25>
 --- !u!114 &11424322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5234,8 +5230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: W<size=3> </size>a<size=3> </size>t<size=15> </size>e<size=11> </size>r<size=25>
-    </size>R<size=12> </size>o<size=14> </size>b<size=17> </size>o<size=8> </size>t
+  m_Text: B<size=3> </size>l<size=3> </size>a<size=15> </size>u<size=11> </size>w<size=25>
 --- !u!114 &11428574
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5602,8 +5597,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: G<size=15> </size>i<size=12> </size>f<size=25> </size>R<size=12> </size>o<size=14>
-    </size>b<size=17> </size>o<size=8> </size>t
+  m_Text: 'G<size=15> </size>r<size=12> </size>o<size=25> </size>e<size=12> </size>n<size=14> '
 --- !u!114 &11433160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6569,8 +6563,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: L<size=12> </size>i<size=12> </size>c<size=15> </size>h<size=12> </size>t<size=25>
-    </size>R<size=12> </size>o<size=14> </size>b<size=17> </size>o<size=8> </size>t
+  m_Text: 'G<size=12> </size>e<size=12> </size>e<size=15> </size>l<size=12> '
 --- !u!114 &11449498
 MonoBehaviour:
   m_ObjectHideFlags: 1
