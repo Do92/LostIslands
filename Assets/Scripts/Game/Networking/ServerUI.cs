@@ -13,6 +13,7 @@ namespace Game.Networking
     /// </summary>
     public class ServerUI : MonoBehaviour
     {
+
         // Main server canvas
         [Header("Main Canvas")]
         public RectTransform LoadPanel;
@@ -21,6 +22,7 @@ namespace Game.Networking
         public RectTransform QuestionPanel;
         public RectTransform QuestionResultPanel;
         public RectTransform OutroPanel;
+        public RectTransform OutroPanelFail;
         public RectTransform ScorePanel;
 
         // Question Panel
@@ -47,8 +49,9 @@ namespace Game.Networking
 
         [Header("Scoreboard")]
         private RankManager rankManager;
-
         public GameObject PersistentMenuItems;
+        [Header("Other"), Range(0,1f)]
+        public float succesPercentage = .8f;
 
         // Question Data
         private QuestionInfo question;
@@ -101,7 +104,14 @@ namespace Game.Networking
                     GamePanel.gameObject.SetActive(true);
                     break;
                 case MatchStateType.Outro:
-                    OutroPanel.gameObject.SetActive(true);
+
+                    Level level = FindObjectOfType<Level>();
+                    if(((float)level.healedTileCount / (float)level.tileCount) > succesPercentage)
+                        OutroPanel.gameObject.SetActive(true);
+                    else
+                    {
+                        OutroPanelFail.gameObject.SetActive(true);
+                    }
                     break;
                 case MatchStateType.GameOverMenu:
                     rankManager.SetRanking();
@@ -121,7 +131,9 @@ namespace Game.Networking
                 QuestionPanel,
                 QuestionResultPanel,
                 GamePanel,
-                ScorePanel
+                ScorePanel,
+                OutroPanel,
+                OutroPanelFail
             };
 
             foreach (RectTransform panel in panelsToHide)
