@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 6c1299c13a98282458af6d2e6f070487
-timeCreated: 1493814270
+guid: 4444dcf9953c8a343be2bf3eb4ff26a2
+timeCreated: 1493824137
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: polySurface7
+    100000: WiseTree
     100002: //RootNode
-    400000: polySurface7
+    400000: WiseTree
     400002: //RootNode
-    2300000: polySurface7
-    3300000: polySurface7
-    4300000: polySurface7
+    2300000: WiseTree
+    3300000: WiseTree
+    4300000: WiseTree
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
