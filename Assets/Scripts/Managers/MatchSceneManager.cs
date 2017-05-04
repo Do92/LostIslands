@@ -109,6 +109,9 @@ namespace Managers
 
         public void UpdatePlayerCards()
         {
+            if(!isServer)
+                clientUI.UpdateScore(matchData.PlayerData.Score);
+
             if (isServer)
                 serverUI.UpdatePlayerCards();
         }

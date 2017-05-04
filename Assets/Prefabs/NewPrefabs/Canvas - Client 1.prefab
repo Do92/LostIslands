@@ -8468,6 +8468,9 @@ MonoBehaviour:
   BuffRangeTexts:
   - {fileID: 11420022}
   - {fileID: 11452792}
+  ScoreTexts:
+  - {fileID: 11495574}
+  - {fileID: 11470076}
   TimeRemaining: {fileID: 11473986}
   PersistentMenuItems: {fileID: 124464}
 --- !u!114 &11496178

@@ -47,6 +47,7 @@ namespace Game.Networking
         public Text[] BuffMovementTexts;
         public Text[] BuffStrenghtTexts;
         public Text[] BuffRangeTexts;
+        public Text[] ScoreTexts;
 
         [Header("Turn Panel")]
         public Text TimeRemaining;
@@ -122,6 +123,7 @@ namespace Game.Networking
                     QuestionResultState();
                     break;
                 case MatchStateType.Player:
+                    UpdateScore(matchData.PlayerData.Score);
                     // Couldn't use this state to toggle the question background panel off!
                     break;
                 case MatchStateType.Outro:
@@ -140,6 +142,14 @@ namespace Game.Networking
                         tile.transform.parent = matchData.Level.transform;
                     break;
 #endif
+            }
+        }
+
+        public void UpdateScore(int score)
+        {
+            foreach (var text in ScoreTexts)
+            {
+                text.text = score.ToString();
             }
         }
 
