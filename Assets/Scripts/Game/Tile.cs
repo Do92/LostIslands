@@ -37,6 +37,7 @@ namespace Game
         public Renderer Renderer;
         public int RendererMaterialIndex;
         public Material[] StepMaterials;
+        public GameObject onEnterParticle;
 
         public UnityAction OnTileHealed;
 
@@ -147,6 +148,7 @@ namespace Game
                 GiveBuffs(player.PlayerData, true);
                 StartCoroutine(LerpToColor(player.PlayerData.Character.EmissionColor));
             }
+            SpawnOnEnterParticle();
 
             // Set the new tile owner if the tile isn't already locked
 //            if (!player.PlayerData.Equals(ownerData) && SteppedOnAmount == 1)
@@ -489,6 +491,19 @@ namespace Game
                     #endregion
                 }
             }
+        }
+
+        public void SpawnOnEnterParticle()
+        {
+            GameObject particle = (GameObject)GameObject.Instantiate(onEnterParticle, transform.position, Quaternion.identity);
+            if(isServer)
+                RpcSpawnOnEnterParticle();
+        }
+
+        [ClientRpc]
+        public void RpcSpawnOnEnterParticle()
+        {
+            SpawnOnEnterParticle();
         }
 
         // Validates the lockable center tile and then finds the square shaped link around it

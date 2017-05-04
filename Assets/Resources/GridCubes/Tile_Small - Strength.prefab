@@ -405,6 +405,7 @@ MonoBehaviour:
   StepMaterials:
   - {fileID: 2100000, guid: 6beef4f6999b5844fa5ef982541b6349, type: 2}
   - {fileID: 2100000, guid: b89fed422d231f04487007f6df0fcdf5, type: 2}
+  onEnterParticle: {fileID: 157040, guid: b99d4740debfe154b9a941ff561f746f, type: 2}
   SteppedOnAmount: 0
   IsCorner: 0
 --- !u!114 &11492940
