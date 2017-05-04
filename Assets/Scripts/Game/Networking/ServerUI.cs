@@ -136,10 +136,10 @@ namespace Game.Networking
             foreach (PlayerCard playerCard in PlayerCards)
                 playerCard.gameObject.SetActive(false);
 
-            for (int i = 0; i < matchData.GetAllPlayerData().Count; i++)
-                PlayerCards[i].gameObject.SetActive(true);
+            //for (int i = 0; i < matchData.GetAllPlayerData().Count; i++)
+            //    PlayerCards[i].gameObject.SetActive(true);
 
-            AssignPlayerCards();
+            //AssignPlayerCards();
         }
 
         // Assign player cards to players.

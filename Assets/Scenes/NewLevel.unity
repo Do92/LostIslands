@@ -5009,6 +5009,30 @@ Prefab:
       propertyPath: RotatingRobot
       value: 
       objectReference: {fileID: 1056896787}
+    - target: {fileID: 148234, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 170876, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 179408, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173710, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199104, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114816, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf3ec23d99c0b71498c980bea90e68b5, type: 2}
   m_IsPrefabParent: 0
