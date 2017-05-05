@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:		Nu ____ hij zijn zusje.</QuestionText>
+		<OptionA>missen</OptionA>
+		<OptionB>mis</OptionB>
+		<OptionC>mist</OptionC>
+		<OptionD>misten</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>Nu mist hij zijn zusje</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	De pinguin zegt dat ____ ik niet meer doen.</QuestionText>
+		<OptionA>zal</OptionA>
+		<OptionB>zul</OptionB>
+		<OptionC>zullen</OptionC>
+		<OptionD>zalt</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>De pinguin zegt dat zal ik niet meer doen.</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:		Vandaag ____ we naar het strand</QuestionText>
+		<OptionA>Wilden</OptionA>
+		<OptionB>Wouden</OptionB>
+		<OptionC>Wil</OptionC>
+		<OptionD>Willen</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>Vandaag willen we naar het strand.</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	Het bruidspaar ____ onder de bomen door</QuestionText>
+		<OptionA>Liep</OptionA>
+		<OptionB>Lopen</OptionB>
+		<OptionC>loopt</OptionC>
+		<OptionD>liept</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>Het bruidspaar liep onder de bomen door.</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	Na de plechtigheid ____ we getrakteerd</QuestionText>
+		<OptionA>worden</OptionA>
+		<OptionB>werd</OptionB>
+		<OptionC>werden</OptionC>
+		<OptionD>wordt</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>Na de plechtigheid werden we getrakteerd.</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	Toen ____ het meisje haar buurvrouw.</QuestionText>
+		<OptionA>Ziet</OptionA>
+		<OptionB>Zag</OptionB>
+		<OptionC>Zien</OptionC>
+		<OptionD>zagen</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>Toen zag het meisje haar buurvrouw.</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	De rennende jongen is aan het vluchten.</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>Er komen 3 werkwoorden voor in de zin. De rennende jongen is aan het vluchten.</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	Ze vraagt aan de taxichauffeur om te rijden.</QuestionText>
+		<<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>Er komen 2 werkwoorden voor in de zin. Ze vraagt aan de taxichauffeur om te rijden.</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	Hij pakt de euro van de grond. </QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>Er komt 1 werkwoord voor in de zin. Hij pakt de euro van de grond.</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in tegenwoordige tijd:	Je ____ je hoofd.</QuestionText>
+		<OptionA>schud</OptionA>
+		<OptionB>schut</OptionB>
+		<OptionC>schudt</OptionC>
+		<OptionD>schudden</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>Je schudt je hoofd.</Description>
+	</Question>
+</QuestionList>
