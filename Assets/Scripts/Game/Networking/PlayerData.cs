@@ -100,11 +100,7 @@ namespace Game.Networking
         {
             if (isServer)
                 RpcAddScore(score);
-
-            Player p = matchData.Level.GetPlayer(PlayerId);
-            if (p.scoreParticle != null)
-                GameObject.Instantiate(p.scoreParticle, p.transform.position, Quaternion.identity);
-
+            
             Score += score;
             matchData.MatchSceneManager.UpdatePlayerCards();
         }
