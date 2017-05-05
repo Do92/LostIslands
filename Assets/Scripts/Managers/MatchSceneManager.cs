@@ -72,7 +72,8 @@ namespace Managers
                     CameraFade.StartAlphaFade(Color.black, false, 3.0f);
                     break;
                 case MatchStateType.Outro:
-                    outroMoviePlayer = isServer ? serverUI.OutroPanel.GetComponent<MoviePlayer>() : clientUI.OutroPanel.GetComponent<MoviePlayer>();
+                    CameraFade.StartAlphaFade(Color.clear, false, 3);
+                    //outroMoviePlayer = isServer ? serverUI.OutroPanel.GetComponent<MoviePlayer>() : clientUI.OutroPanel.GetComponent<MoviePlayer>();
                     break;
             }
         }

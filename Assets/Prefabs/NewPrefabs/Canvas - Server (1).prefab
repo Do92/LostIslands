@@ -6257,12 +6257,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreboardEntries:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11469258}
+  - {fileID: 11492730}
+  - {fileID: 11413344}
+  - {fileID: 11493124}
+  - {fileID: 11489862}
+  - {fileID: 11466696}
   RotatingRobot: {fileID: 0}
 --- !u!114 &11443028
 MonoBehaviour:
@@ -12803,7 +12803,7 @@ RectTransform:
   m_GameObject: {fileID: 158742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22468294}
   m_RootOrder: 6

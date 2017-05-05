@@ -65,7 +65,7 @@
 	</Question>
 	<Question type="multipleChoiceItem">
 		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	Ze vraagt aan de taxichauffeur om te rijden.</QuestionText>
-		<<OptionA>1</OptionA>
+		<OptionA>1</OptionA>
 		<OptionB>2</OptionB>
 		<OptionC>3</OptionC>
 		<OptionD>4</OptionD>
