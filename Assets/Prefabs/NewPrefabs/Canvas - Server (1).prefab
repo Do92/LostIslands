@@ -2596,7 +2596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &157004
 GameObject:
   m_ObjectHideFlags: 1
@@ -9030,7 +9030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuPanelManager: {fileID: 0}
-  MovieFileName: Game intro.mp4
+  MovieFileName: IntroMovie2.mpeg
   MovieAssetBundleName: GameIntroBundle
   IsPlayingMovie: 0
 --- !u!114 &11456148

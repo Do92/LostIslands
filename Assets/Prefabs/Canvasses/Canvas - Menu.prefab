@@ -211,7 +211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &102900
 GameObject:
   m_ObjectHideFlags: 1
@@ -1149,7 +1149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &123384
 GameObject:
   m_ObjectHideFlags: 1
@@ -2510,7 +2510,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &156900
 GameObject:
   m_ObjectHideFlags: 1
@@ -2980,7 +2980,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &167814
 GameObject:
   m_ObjectHideFlags: 1
@@ -3149,7 +3149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &171382
 GameObject:
   m_ObjectHideFlags: 1
@@ -3271,7 +3271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &173776
 GameObject:
   m_ObjectHideFlags: 1
@@ -3828,6 +3828,23 @@ GameObject:
   - 114: {fileID: 11452816}
   m_Layer: 5
   m_Name: Button - Client
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &182306
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22459172}
+  - 222: {fileID: 22272046}
+  - 114: {fileID: 11497618}
+  m_Layer: 5
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4665,7 +4682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &197818
 GameObject:
   m_ObjectHideFlags: 1
@@ -4676,6 +4693,7 @@ GameObject:
   - 224: {fileID: 22440382}
   - 222: {fileID: 22283174}
   - 114: {fileID: 11449602}
+  - 114: {fileID: 11499680}
   m_Layer: 5
   m_Name: Image - Robot
   m_TagString: Untagged
@@ -9579,7 +9597,6 @@ MonoBehaviour:
   MovieFileName: Logo intro.mp4
   MovieAssetBundleName: LogoIntroBundle
   IsPlayingMovie: 0
-  ShowDebugMessages: 0
 --- !u!114 &11444052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10176,19 +10193,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: e70120c32d4d20f4292576e9d8e86bde, type: 3}
-    m_FontSize: 16
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: P<size=15> </size>L<size=4> </size>A<size=10> </size>N<size=3> </size>ET
-    J<size=15> </size>U<size=4> </size>P<size=15> </size>IT<size=8> </size>ER
+  m_Text: Red het vliegende eiland!
 --- !u!114 &11449602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13320,7 +13336,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e7be861cdea3219488fac2e48bf5c7a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a0fd0d552d94b314b9e1f50e1b8a7485, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15716,23 +15732,19 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 93a08b38e0133df4e93bcf435acdd696, type: 3}
-    m_FontSize: 15
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 15
-    m_MaxSize: 15
-    m_Alignment: 0
+    m_MinSize: 2
+    m_MaxSize: 24
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jupiter is a giant gas planet. Its atmosphere is made up of mostly hydrogen
-    gas and helium gas, just like the sun. The planet's surface is covered in thick
-    red, brown, yellow and white clouds. One of Jupiter's most famous features is
-    the Great Red Spot. It is a giant spinning storm, resembling a hurricane. At its
-    widest point, the storm is about three-and-a-half times the diameter of Earth.
-    Jupiter is a very windy planet. Winds range from 192 mph to more than 400 mph.
+  m_Text: 'Help het vliegende eiland is ziek! Jullie kunnen het eiland genezen door
+    over  alle stukjes grond te lopen met jullie magie ! '
 --- !u!114 &11495692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16040,6 +16052,33 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11497618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 1b05351452727194f8195b015ad36529, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
 --- !u!114 &11497864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16389,6 +16428,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: B<size=4> </size>ER<size=4> </size>EI<size=3> </size>K
+--- !u!114 &11499680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1254083943, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 1
+  m_AspectRatio: 1
 --- !u!114 &11499870
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17527,6 +17579,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123116}
+--- !u!222 &22272046
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182306}
 --- !u!222 &22272920
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -18807,8 +18865,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 297.62854, y: -26}
-  m_SizeDelta: {x: 579.2571, y: 52}
+  m_AnchoredPosition: {x: 296.03006, y: -26}
+  m_SizeDelta: {x: 576.0601, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22418184
 RectTransform:
@@ -19535,8 +19593,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 309.61194, y: -147}
-  m_SizeDelta: {x: 603.2239, y: 40}
+  m_AnchoredPosition: {x: 308.01355, y: -147}
+  m_SizeDelta: {x: 600.0271, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22432646
 RectTransform:
@@ -19646,8 +19704,8 @@ RectTransform:
   m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 297.62854, y: -254}
-  m_SizeDelta: {x: 579.2571, y: 52}
+  m_AnchoredPosition: {x: 296.03006, y: -254}
+  m_SizeDelta: {x: 576.0601, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22433568
 RectTransform:
@@ -20089,8 +20147,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 309.61194, y: -106}
-  m_SizeDelta: {x: 603.2239, y: 40}
+  m_AnchoredPosition: {x: 308.01355, y: -106}
+  m_SizeDelta: {x: 600.0271, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22443710
 RectTransform:
@@ -20140,10 +20198,10 @@ RectTransform:
   - {fileID: 22440382}
   m_Father: {fileID: 22472668}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.81874996, y: 0.27057335}
-  m_AnchorMax: {x: 0.952, y: 0.72200006}
-  m_AnchoredPosition: {x: 2.4268925, y: 0}
-  m_SizeDelta: {x: 0.66625977, y: 0}
+  m_AnchorMin: {x: 0.771, y: 0.27057335}
+  m_AnchorMax: {x: 0.9821231, y: 0.72433335}
+  m_AnchoredPosition: {x: 0.5, y: -0.5}
+  m_SizeDelta: {x: -2, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22444416
 RectTransform:
@@ -20462,8 +20520,8 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 297.62854, y: -197}
-  m_SizeDelta: {x: 579.2571, y: 52}
+  m_AnchoredPosition: {x: 296.03006, y: -197}
+  m_SizeDelta: {x: 576.0601, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22451772
 RectTransform:
@@ -20551,8 +20609,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 309.61194, y: -24}
-  m_SizeDelta: {x: 603.2239, y: 40}
+  m_AnchoredPosition: {x: 308.01355, y: -24}
+  m_SizeDelta: {x: 600.0271, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22452862
 RectTransform:
@@ -20607,8 +20665,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 297.62854, y: -83}
-  m_SizeDelta: {x: 579.2571, y: 52}
+  m_AnchoredPosition: {x: 296.03006, y: -83}
+  m_SizeDelta: {x: 576.0601, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22454226
 RectTransform:
@@ -20939,6 +20997,23 @@ RectTransform:
   m_AnchoredPosition: {x: 5, y: -0.5}
   m_SizeDelta: {x: -30, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &22459172
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22465736}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.0025024414, y: 0.0004348755}
+  m_SizeDelta: {x: 0.05999756, y: -0.23999023}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22459630
 RectTransform:
   m_ObjectHideFlags: 1
@@ -21037,10 +21112,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22446282}
   m_RootOrder: 11
-  m_AnchorMin: {x: 0.030869916, y: 0}
-  m_AnchorMax: {x: 0.95437, y: 0.24317943}
-  m_AnchoredPosition: {x: -68.89, y: 8.1}
-  m_SizeDelta: {x: -137.57999, y: -16.5}
+  m_AnchorMin: {x: 0.053623218, y: 0.5}
+  m_AnchorMax: {x: 0.9235072, y: 0.7798846}
+  m_AnchoredPosition: {x: -0.10000038, y: -0.79999924}
+  m_SizeDelta: {x: 0.20000076, y: -1.6000061}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22460306
 RectTransform:
@@ -21215,10 +21290,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22446282}
   m_RootOrder: 10
-  m_AnchorMin: {x: 0.030869916, y: 0.28888452}
-  m_AnchorMax: {x: 0.030869916, y: 0.28888452}
-  m_AnchoredPosition: {x: 80, y: -14.9}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.053623218, y: 0.7798846}
+  m_AnchorMax: {x: 0.9235072, y: 0.88782066}
+  m_AnchoredPosition: {x: 0, y: -5.299999}
+  m_SizeDelta: {x: -0.099975586, y: 12.300003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22463242
 RectTransform:
@@ -21285,6 +21360,7 @@ RectTransform:
   m_Children:
   - {fileID: 22463242}
   - {fileID: 22400772}
+  - {fileID: 22459172}
   m_Father: {fileID: 22411798}
   m_RootOrder: 3
   m_AnchorMin: {x: 0.21548155, y: 0.062299997}
@@ -22094,8 +22170,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 297.62854, y: -140}
-  m_SizeDelta: {x: 579.2571, y: 52}
+  m_AnchoredPosition: {x: 296.03006, y: -140}
+  m_SizeDelta: {x: 576.0601, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22481464
 RectTransform:
@@ -22764,8 +22840,8 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 297.62854, y: -311}
-  m_SizeDelta: {x: 579.2571, y: 52}
+  m_AnchoredPosition: {x: 296.03006, y: -311}
+  m_SizeDelta: {x: 576.0601, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22495306
 RectTransform:
@@ -22967,8 +23043,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 309.61194, y: -65}
-  m_SizeDelta: {x: 603.2239, y: 40}
+  m_AnchoredPosition: {x: 308.01355, y: -65}
+  m_SizeDelta: {x: 600.0271, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22499380
 RectTransform:
