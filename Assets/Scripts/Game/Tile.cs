@@ -530,7 +530,7 @@ namespace Game
         [ClientRpc]
         public void RpcSpawnOnHealParticles()
         {
-            SpawnOnEnterParticles();
+            SpawnOnHealParticles();
         }
 
         // Validates the lockable center tile and then finds the square shaped link around it
