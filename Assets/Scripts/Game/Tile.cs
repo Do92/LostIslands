@@ -194,6 +194,7 @@ namespace Game
                 // The lockable tiles from within the link loops of default or partial color will become the same color as the locked tiles of the loop
                 else if (SteppedOnAmount == 2)
                 {
+                    SpawnOnHealParticles();
                     player.PlayerData.AddScore(1);
                     healed = true;
 
@@ -496,14 +497,38 @@ namespace Game
 
         public void SpawnOnEnterParticles()
         {
-			GameObject particle1 = (GameObject)GameObject.Instantiate(onEnterParticle, new Vector3 (transform.position.x, transform.position.y+1, transform.position.z), Quaternion.identity);
-			GameObject particle2 = (GameObject)GameObject.Instantiate(onScoreParticle, new Vector3 (transform.position.x, transform.position.y+1, transform.position.z), Quaternion.identity);
-            if(isServer)
-                RpcSpawnOnEnterParticles();
+            if (onEnterParticle != null)
+            {
+                GameObject particle1 =
+                    (GameObject)GameObject.Instantiate(onEnterParticle,
+                                                       new Vector3(transform.position.x, transform.position.y + 1,
+                                                                   transform.position.z), Quaternion.identity);
+                if (isServer)
+                    RpcSpawnOnEnterParticles();
+            }
         }
 
         [ClientRpc]
         public void RpcSpawnOnEnterParticles()
+        {
+            SpawnOnEnterParticles();
+        }
+
+        public void SpawnOnHealParticles()
+        {
+            if (onScoreParticle != null)
+            {
+                GameObject particle2 =
+                    (GameObject)GameObject.Instantiate(onScoreParticle,
+                                                       new Vector3(transform.position.x, transform.position.y + 1,
+                                                                   transform.position.z), Quaternion.identity);
+                if (isServer)
+                    RpcSpawnOnEnterParticles();
+            }
+        }
+
+        [ClientRpc]
+        public void RpcSpawnOnHealParticles()
         {
             SpawnOnEnterParticles();
         }
