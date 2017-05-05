@@ -243,6 +243,8 @@ namespace Game.Networking
         {
             if (Debug)
                 UnityEngine.Debug.Log("Registering Player ID: " + playerId);
+            if(playerDataCollection == null)
+                playerDataCollection = new Dictionary<int, PlayerData>();
 
             playerDataCollection.Add(playerId, playerData);
 
