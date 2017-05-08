@@ -58,13 +58,13 @@
 		<Description>Toen zag het meisje haar buurvrouw.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	De rennende jongen vlucht.</QuestionText>
+		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	De jongen vlucht naar het verlaten bos.</QuestionText>
 		<OptionA>1</OptionA>
 		<OptionB>2</OptionB>
 		<OptionC>3</OptionC>
 		<OptionD>4</OptionD>
 		<CorrectOption>b</CorrectOption>
-		<Description>Er komen 3 werkwoorden voor in de zin. De rennende jongen vlucht.</Description>
+		<Description>Er komt 1 werkwoord voor in de zin. De jongen vlucht naar het verlaten bos.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
 		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	Ze vraagt aan de taxichauffeur om te rijden.</QuestionText>
