@@ -42,21 +42,22 @@ MonoBehaviour:
   MatchData: {fileID: 0}
   MatchSceneManager: {fileID: 0}
   Name: Tile Conquer & Control
-  KillScore: 3
+  KillScore: 5
   DieScore: -2
   CorrectAnswerPoints: 3
   IncorrectAnswerPoints: 1
   UpdateSpeed: 0.1
-  IntroTime: 3
-  InstructionTime: 3
-  TutorialFadeTime: 1
+  IntroTime: 1
+  InstructionTime: 1
+  RegularFadeTime: 1
   BuildTime: 2
-  QuestionPrepareTime: 2
-  QuestionMaxTime: 8
+  QuestionPrepareTime: 5
+  QuestionMaxTime: 18
   QuestionResultTime: 6
-  TurnTimePerMove: 5
-  WaitForQuestionTime: 1
+  TurnTimePerMove: 6
+  WaitForQuestionTime: 2
   QuestionFadeTime: 1.5
+  endscreenTime: 15
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

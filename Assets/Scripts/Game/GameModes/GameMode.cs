@@ -18,7 +18,7 @@ namespace Game.GameModes
         protected int amountOfTurns;
         public int KillScore = 3;
         public int DieScore = -2;
-        public int CorrectAnswerPoints = 3;
+        public int CorrectAnswerPoints = 10;
         public int IncorrectAnswerPoints = 1;
 
         [Header("Timings")]
@@ -27,8 +27,8 @@ namespace Game.GameModes
         public float InstructionTime = 3.0f;
         public float RegularFadeTime = 1.0f;
         public float BuildTime = 2.0f;
-        public float QuestionPrepareTime = 2.0f;
-        public float QuestionMaxTime = 10.0f;
+        public float QuestionPrepareTime = 5.0f;
+        public float QuestionMaxTime = 20.0f;
         public float QuestionResultTime = 6.0f;
         public float TurnTimePerMove = 5.0f;
         public float WaitForQuestionTime = 1.0f;
