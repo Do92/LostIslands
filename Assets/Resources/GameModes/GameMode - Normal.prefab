@@ -48,16 +48,16 @@ MonoBehaviour:
   IncorrectAnswerPoints: 1
   UpdateSpeed: 0.1
   IntroTime: 1
-  InstructionTime: 1
+  InstructionTime: 1.5
   RegularFadeTime: 1
-  BuildTime: 2
+  BuildTime: 1
   QuestionPrepareTime: 5
-  QuestionMaxTime: 18
-  QuestionResultTime: 6
+  QuestionMaxTime: 15
+  QuestionResultTime: 5
   TurnTimePerMove: 6
   WaitForQuestionTime: 2
-  QuestionFadeTime: 1.5
-  endscreenTime: 15
+  QuestionFadeTime: 1
+  endscreenTime: 8
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

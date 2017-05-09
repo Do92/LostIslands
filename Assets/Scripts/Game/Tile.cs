@@ -39,6 +39,7 @@ namespace Game
         public Material[] StepMaterials;
         public GameObject onEnterParticle;
 		public GameObject onScoreParticle;
+		public GameObject pointPopup;
 
         public UnityAction OnTileHealed;
 
@@ -522,8 +523,14 @@ namespace Game
                     (GameObject)GameObject.Instantiate(onScoreParticle,
                                                        new Vector3(transform.position.x, transform.position.y + 1,
                                                                    transform.position.z), Quaternion.identity);
+				GameObject points =
+					(GameObject)GameObject.Instantiate(pointPopup,
+						new Vector3(transform.position.x, transform.position.y + 2,
+							transform.position.z), Quaternion.identity);
+				points.GetComponent<RisingText>().Setup (3.0f, 1.5f);
+
                 if (isServer)
-                    RpcSpawnOnEnterParticles();
+                    RpcSpawnOnHealParticles();
             }
         }
 

@@ -133,13 +133,13 @@ namespace Game
         // Teleport with first spawn animation
         public void DoInitialMove(Vector2 position)
         {
-            Move(DirectionType.Up, position, MoveActionType.Initial);
+            Move(DirectionType.Right, position, MoveActionType.Initial);
         }
 
         // Teleport with respawn animation
         public void Spawn(Vector2 position)
         {
-            Move(DirectionType.Up, position, MoveActionType.Spawn);
+            Move(DirectionType.Right, position, MoveActionType.Spawn);
         }
 
         // Die animation
