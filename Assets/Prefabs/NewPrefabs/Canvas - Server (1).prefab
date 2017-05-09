@@ -2600,7 +2600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &169130
 GameObject:
   m_ObjectHideFlags: 1
@@ -3534,7 +3534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &198200
 GameObject:
   m_ObjectHideFlags: 1
@@ -8097,7 +8097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2088c76ad62124592159ed7161dc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EyeFadeImage: {fileID: 11429910}
+  EyeFadeImage: {fileID: 11450368}
   PlayerName: {fileID: 11413016}
   PlayerScore: {fileID: 11439142}
 --- !u!114 &11466708
@@ -9236,7 +9236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2088c76ad62124592159ed7161dc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EyeFadeImage: {fileID: 11495106}
+  EyeFadeImage: {fileID: 11429778}
   PlayerName: {fileID: 11474926}
   PlayerScore: {fileID: 11414304}
 --- !u!114 &11490488

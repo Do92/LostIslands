@@ -59,6 +59,7 @@ namespace Game
         public float SpawnHeight = 10.0f;
         public float DieDepth = -10.0f;
         public Renderer[] Renderers;
+		public SpriteRenderer Indicator;
         public GameObject turnIndicator;        
         public GameObject pushParticle;
 
@@ -101,7 +102,7 @@ namespace Game
 
         // Set the player's color
         // If called on a server it will automatically do this on all clients
-        public void SetColor(Color emissionColor)
+        public void SetColor(Color mainColor)
         {
             foreach (Renderer renderer in Renderers)
             {
@@ -109,18 +110,20 @@ namespace Game
 
                 //renderer.material.SetFloat("_Metallic", 1.0f); // Makes it more visible and shiny like a robot
 
-                renderer.materials[0].SetColor("_Color", emissionColor);
+                renderer.materials[0].SetColor("_Color", mainColor);
                 //renderer.material.SetColor("_EmissionColor", emissionColor);
             }
 
+			Indicator.color = mainColor;
+
             if (isServer)
-                RpcSetColor(emissionColor);
+                RpcSetColor(mainColor);
         }
 
         [ClientRpc]
-        private void RpcSetColor(Color emissionColor)
+        private void RpcSetColor(Color mainColor)
         {
-            SetColor(emissionColor);
+            SetColor(mainColor);
         }
 
         public void SetPushedBy(int playerId)

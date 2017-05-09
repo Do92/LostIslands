@@ -914,6 +914,11 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400098, guid: 160607906b6c34243b41685bf73ed00c, type: 3}
   m_PrefabInternal: {fileID: 168249560}
+--- !u!137 &168249562 stripped
+SkinnedMeshRenderer:
+  m_PrefabParentObject: {fileID: 13700000, guid: 160607906b6c34243b41685bf73ed00c,
+    type: 3}
+  m_PrefabInternal: {fileID: 168249560}
 --- !u!1001 &192872994
 Prefab:
   m_ObjectHideFlags: 0
@@ -3713,14 +3718,14 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11472310, guid: cfca3799d9a1bb0469f88e067404e3b3, type: 2}
+      propertyPath: RotatingRobot
+      value: 
+      objectReference: {fileID: 168249562}
     - target: {fileID: 112034, guid: cfca3799d9a1bb0469f88e067404e3b3, type: 2}
       propertyPath: m_Name
       value: Canvas - Client 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11472310, guid: cfca3799d9a1bb0469f88e067404e3b3, type: 2}
-      propertyPath: RotatingRobot
-      value: 
-      objectReference: {fileID: 1056896787}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cfca3799d9a1bb0469f88e067404e3b3, type: 2}
   m_IsPrefabParent: 0
@@ -4305,6 +4310,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 165470, guid: 2f90447606490ec45834ed1af1a1e64f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f90447606490ec45834ed1af1a1e64f, type: 2}
   m_IsPrefabParent: 0
@@ -4821,11 +4830,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 403556, guid: eaa1ef82e0aba0646a9ed83e4b202b80, type: 2}
   m_PrefabInternal: {fileID: 1034369246}
---- !u!137 &1056896787 stripped
-SkinnedMeshRenderer:
-  m_PrefabParentObject: {fileID: 13718248, guid: 2f90447606490ec45834ed1af1a1e64f,
-    type: 2}
-  m_PrefabInternal: {fileID: 902716081}
 --- !u!1001 &1058730344
 Prefab:
   m_ObjectHideFlags: 0
@@ -6076,10 +6080,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11442950, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
-      propertyPath: RotatingRobot
-      value: 
-      objectReference: {fileID: 1056896787}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
   m_IsPrefabParent: 0

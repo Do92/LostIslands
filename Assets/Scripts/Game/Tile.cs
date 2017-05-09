@@ -527,7 +527,7 @@ namespace Game
 					(GameObject)GameObject.Instantiate(pointPopup,
 						new Vector3(transform.position.x, transform.position.y + 2,
 							transform.position.z), Quaternion.identity);
-				points.GetComponent<RisingText>().Setup (3.0f, 1.5f);
+				points.GetComponent<RisingText>().Setup (3.0f, 2f);
 
                 if (isServer)
                     RpcSpawnOnHealParticles();

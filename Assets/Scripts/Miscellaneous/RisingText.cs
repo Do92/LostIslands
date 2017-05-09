@@ -28,7 +28,7 @@ public class RisingText : MonoBehaviour
 		alpha = 1f;
 		cam = Camera.main;
 		crds_delta = new Vector3(0f, 1f, 0f);
-		life_loss = 0.5f;
+		life_loss = 0.3f;
 	}
 
 	void Update () 
