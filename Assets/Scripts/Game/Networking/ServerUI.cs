@@ -51,7 +51,7 @@ namespace Game.Networking
         private RankManager rankManager;
         public GameObject PersistentMenuItems;
         [Header("Other"), Range(0,1f)]
-        public float succesPercentage = .8f;
+        public float successPercentage;
 
         // Question Data
         private QuestionInfo question;
@@ -106,9 +106,9 @@ namespace Game.Networking
                 case MatchStateType.Outro:
 
                     Level level = FindObjectOfType<Level>();
-                    if(((float)level.healedTileCount / (float)level.tileCount) > succesPercentage)
+                    if(((float)level.healedTileCount / (float)level.tileCount) >= successPercentage)
                         OutroPanel.gameObject.SetActive(true);
-                    else
+				else if (((float)level.healedTileCount / (float)level.tileCount) < successPercentage)
                     {
                         OutroPanelFail.gameObject.SetActive(true);
                     }

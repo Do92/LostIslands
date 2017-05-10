@@ -4120,7 +4120,7 @@ MonoBehaviour:
   - {fileID: 11485608}
   TurnAmountText: {fileID: 11445468}
   PersistentMenuItems: {fileID: 109996}
-  succesPercentage: 0.6
+  successPercentage: 0.5
 --- !u!114 &11407168
 MonoBehaviour:
   m_ObjectHideFlags: 1
