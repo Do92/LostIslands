@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Een, twee, drie of vier?</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>3</Description>
+	</Question>
+
+</QuestionList>
