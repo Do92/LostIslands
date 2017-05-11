@@ -47,13 +47,13 @@ MonoBehaviour:
   CorrectAnswerPoints: 3
   IncorrectAnswerPoints: 1
   UpdateSpeed: 0.1
-  IntroTime: 2
-  InstructionTime: 2
+  IntroTime: 0
+  InstructionTime: 0
   RegularFadeTime: 1
-  BuildTime: 1
-  QuestionPrepareTime: 2
+  BuildTime: 6
+  QuestionPrepareTime: 4
   QuestionMaxTime: 15
-  QuestionResultTime: 4
+  QuestionResultTime: 3
   TurnTimePerMove: 6
   WaitForQuestionTime: 1
   QuestionFadeTime: 1.5

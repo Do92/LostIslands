@@ -585,6 +585,7 @@ GameObject:
   - 4: {fileID: 423264}
   - 114: {fileID: 11401558}
   - 114: {fileID: 11465904}
+  - 136: {fileID: 13625016}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1823,7 +1824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Debug: 0
-  LevelBuildTime: 3
+  LevelBuildTime: 2
   MoveSpeed: 5
   RotateSpeed: 5
   FallSpeed: 1
@@ -1834,6 +1835,19 @@ MonoBehaviour:
   Indicator: {fileID: 21265696}
   turnIndicator: {fileID: 142792}
   pushParticle: {fileID: 157040, guid: a6bc92a0fe36474438b25b063ada62d2, type: 2}
+--- !u!136 &13625016
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.38292986
+  m_Height: 1.7654729
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.78, z: 0}
 --- !u!137 &13718248
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

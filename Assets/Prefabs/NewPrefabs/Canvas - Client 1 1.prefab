@@ -384,7 +384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &112142
 GameObject:
   m_ObjectHideFlags: 1
@@ -1050,6 +1050,7 @@ GameObject:
   - 224: {fileID: 22472758}
   - 222: {fileID: 22214638}
   - 114: {fileID: 11428760}
+  - 114: {fileID: 11414192}
   m_Layer: 5
   m_Name: Image - Robot
   m_TagString: Untagged
@@ -4217,6 +4218,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11414192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 0
 --- !u!114 &11414328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13483,9 +13497,9 @@ RectTransform:
   m_Father: {fileID: 22403404}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0.085}
-  m_AnchorMax: {x: 1, y: 0.47400004}
-  m_AnchoredPosition: {x: -2, y: -1.5169983}
-  m_SizeDelta: {x: -1, y: 2.0299988}
+  m_AnchorMax: {x: 0, y: 0.085}
+  m_AnchoredPosition: {x: 72.79899, y: 128}
+  m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22472850
 RectTransform:
