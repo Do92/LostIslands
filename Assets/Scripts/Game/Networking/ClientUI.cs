@@ -38,6 +38,7 @@ namespace Game.Networking
         public Text QuestionResultText;
         public string QuestionCorrectString;
         public string QuestionIncorrectString;
+		public Text shardsAwarded;
 
         [Header("Game Panel")]
         public Image CharacterImage;
@@ -197,18 +198,25 @@ namespace Game.Networking
         {
             ActionPointsText.text = matchData.PlayerData.ActionPoints.ToString();
 
+
             // Resetting the answer buttons for the next round
             foreach (Button answerButton in AnswerButtons)
                 answerButton.GetComponent<Button>().interactable = true;
 
             ActionPointsRewardText.text = matchData.PlayerData.ActionPoints + " " + actionPointsRewardString;
 
-            if (!currentResponse.IsQuestionAnswered)
-                QuestionResultText.text = QuestionIncorrectString;
-            else if (QuestionManager.ValidateAnswerKeyData(matchData.CurrentQuestion, currentResponse, false))
-                QuestionResultText.text = QuestionCorrectString;
-            else
-                QuestionResultText.text = QuestionIncorrectString;
+			//Changing displayed text accordingly to wronf/right answer
+			if (!currentResponse.IsQuestionAnswered) {
+				QuestionResultText.text = QuestionIncorrectString;
+				shardsAwarded.text = matchData.CurrentGameMode.IncorrectAnswerPoints.ToString();
+			}
+			else if (QuestionManager.ValidateAnswerKeyData (matchData.CurrentQuestion, currentResponse, false)) {
+				QuestionResultText.text = QuestionCorrectString;
+				shardsAwarded.text = matchData.CurrentGameMode.CorrectAnswerPoints.ToString();
+			} else {
+				QuestionResultText.text = QuestionIncorrectString;
+				shardsAwarded.text = matchData.CurrentGameMode.IncorrectAnswerPoints.ToString();
+			}
         }
 
         // When the user clicks an answer button.

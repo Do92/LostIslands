@@ -16,6 +16,7 @@ namespace Game
 		public GameObject pointPickup10;
 
 		private MatchData matchData;
+		private bool isColliding;
 
 		// Use this for initialization
 		void Start () {
@@ -26,28 +27,31 @@ namespace Game
 	
 		// Update is called once per frame
 		void Update () {
-	
+
+			isColliding = false;
 		}
 
-		void OnTriggerExit(Collider other){
+		void OnTriggerEnter(Collider other){
+
+			if(isColliding) return;
 
 			if (pickupID == 0) {			
 
 				GameObject points = (GameObject)GameObject.Instantiate(pointPickup5, this.gameObject.transform.position, Quaternion.identity);
-				points.GetComponent<RisingText>().Setup (3.0f, 2f);
+				points.GetComponent<RisingText>().Setup ();
+				isColliding = true;
 
-				//GameObject.Find("PlayerData").GetComponent<PlayerData>().AddScore (5);
-				//Debug.Log(other.gameObject.GetComponent<Player>().PlayerId);
-				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (5);
+				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (3);
 			
 			}
 
 			else if (pickupID == 1) {			
 
 				GameObject points = (GameObject)GameObject.Instantiate(pointPickup10, this.gameObject.transform.position, Quaternion.identity);
-				points.GetComponent<RisingText>().Setup (3.0f, 2f);
+				points.GetComponent<RisingText>().Setup ();
+				isColliding = true;
 
-				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (10);
+				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (5);
 
 			}
 

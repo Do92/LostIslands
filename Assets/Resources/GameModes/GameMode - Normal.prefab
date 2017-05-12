@@ -44,8 +44,8 @@ MonoBehaviour:
   Name: Tile Conquer & Control
   KillScore: 5
   DieScore: -2
-  CorrectAnswerPoints: 3
-  IncorrectAnswerPoints: 1
+  CorrectAnswerPoints: 5
+  IncorrectAnswerPoints: 2
   UpdateSpeed: 0.1
   IntroTime: 0
   InstructionTime: 0
@@ -57,7 +57,7 @@ MonoBehaviour:
   TurnTimePerMove: 6
   WaitForQuestionTime: 1
   QuestionFadeTime: 1.5
-  endscreenTime: 8
+  endscreenTime: 3
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
