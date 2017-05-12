@@ -55,7 +55,7 @@ TextMesh:
   m_GameObject: {fileID: 153966}
   m_Text: +1 <quad material=1 size=500 x=0.1 y=0.1 width=1 height=1 />
   m_OffsetZ: 0
-  m_CharacterSize: 2.5
+  m_CharacterSize: 10
   m_LineSpacing: 1
   m_Anchor: 3
   m_Alignment: 0
@@ -94,7 +94,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 2.61}
   m_LocalScale: {x: 0.0014563794, y: 0.0014563792, z: 0.0014563792}
   m_Children: []
   m_Father: {fileID: 0}

@@ -55,7 +55,7 @@ TextMesh:
   m_GameObject: {fileID: 153966}
   m_Text: +5 <quad material=1 size=500 x=0.1 y=0.1 width=1 height=1 />
   m_OffsetZ: 0
-  m_CharacterSize: 2.5
+  m_CharacterSize: 10
   m_LineSpacing: 1
   m_Anchor: 3
   m_Alignment: 0
