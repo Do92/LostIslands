@@ -17,18 +17,20 @@ namespace Game
 
 		private MatchData matchData;
 		private bool isColliding;
+		private Animator anim;
 
 		// Use this for initialization
 		void Start () {
 			
-			matchData = GameObject.Find ("MatchData(Clone)").GetComponent<MatchData> ();				
+			matchData = GameObject.Find ("MatchData(Clone)").GetComponent<MatchData> ();
+			anim = this.GetComponentInChildren<Animator> ();
+			isColliding = false;
 
 		}
 	
 		// Update is called once per frame
 		void Update () {
 
-			isColliding = false;
 		}
 
 		void OnTriggerEnter(Collider other){
@@ -40,7 +42,8 @@ namespace Game
 				GameObject points = (GameObject)GameObject.Instantiate(pointPickup5, this.gameObject.transform.position, Quaternion.identity);
 				points.GetComponent<RisingText>().Setup ();
 				isColliding = true;
-
+				anim.SetBool ("PickedUp", true);
+				StartCoroutine (WaitForAnimation());
 				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (3);
 			
 			}
@@ -50,16 +53,22 @@ namespace Game
 				GameObject points = (GameObject)GameObject.Instantiate(pointPickup10, this.gameObject.transform.position, Quaternion.identity);
 				points.GetComponent<RisingText>().Setup ();
 				isColliding = true;
-
+				anim.SetBool ("Damage", true);
+				StartCoroutine (WaitForAnimation());
 				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (5);
 
 			}
 
-			Destroy (this.gameObject);
+			//StartCoroutine (WaitForAnimation());
 
 		}
 	
-			
+		IEnumerator WaitForAnimation()
+		{
+			yield return new WaitForSeconds(1.3f);
+			Destroy (this.gameObject);
+		}
+
 	}
 
 }

@@ -29,7 +29,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7443059047039404c93e12823894c10f, type: 3}
+  - {fileID: 2100000, guid: 3b915a60d6dba214f9a9caea8a74106f, type: 3}
   - {fileID: 2100000, guid: 9f914b3ec5eac024aa705f468fa6d791, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
@@ -53,20 +53,20 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153966}
-  m_Text: +5 <quad material=1 size=500 x=0.1 y=0.1 width=1 height=1 />
+  m_Text: +5<quad material=1 size=450 x=0.1 y=0.1 width=1 height=1 />
   m_OffsetZ: 0
-  m_CharacterSize: 2.5
+  m_CharacterSize: 10
   m_LineSpacing: 1
   m_Anchor: 3
-  m_Alignment: 0
-  m_TabSize: 4
+  m_Alignment: 1
+  m_TabSize: 1
   m_FontSize: 400
-  m_FontStyle: 0
+  m_FontStyle: 1
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 7443059047039404c93e12823894c10f, type: 3}
+  m_Font: {fileID: 12800000, guid: 3b915a60d6dba214f9a9caea8a74106f, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4293388167
+    rgba: 4294967040
 --- !u!114 &11442088
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -216,7 +216,7 @@ namespace Game.Networking
 
                 if (playerData.HasAnsweredCorrectly)
                 {
-                    playerResultCard.transform.SetParent(CorrectPlayerResults.transform);
+                    //playerResultCard.transform.SetParent(CorrectPlayerResults.transform);
                     playerData.AddScore(playerData.ActionPoints);
                 }
                 else

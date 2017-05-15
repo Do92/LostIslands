@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: 52
+  m_PreferredHeight: 75
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
 --- !u!114 &11419848
@@ -170,11 +170,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 7443059047039404c93e12823894c10f, type: 3}
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -198,6 +198,7 @@ MonoBehaviour:
   PlayerImage: {fileID: 11475078}
   SelectedImage: {fileID: 11483980}
   PlayerName: {fileID: 11424264}
+  Character: {fileID: 0}
 --- !u!114 &11452334
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -367,11 +368,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22465366}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 74.4, y: 0}
-  m_SizeDelta: {x: 489, y: 40}
-  m_Pivot: {x: 0, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 170.54, y: 0}
+  m_SizeDelta: {x: 341.09, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22453814
 RectTransform:
   m_ObjectHideFlags: 1
@@ -384,11 +385,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22465366}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 4.9, y: -0.000000059604645}
-  m_SizeDelta: {x: 44, y: -8}
-  m_Pivot: {x: 0, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -27.912598, y: 0}
+  m_SizeDelta: {x: 0, y: 44}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22460296
 RectTransform:
   m_ObjectHideFlags: 1
@@ -403,8 +404,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 59.787, y: 0.000061035156}
+  m_SizeDelta: {x: 119.57, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22465366
 RectTransform:

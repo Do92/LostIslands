@@ -178,12 +178,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_Font: {fileID: 12800000, guid: 7443059047039404c93e12823894c10f, type: 3}
+    m_FontSize: 2
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 300
+    m_BestFit: 1
+    m_MinSize: 1
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -202,11 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2088c76ad62124592159ed7161dc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerImage: {fileID: 11421634}
-  Name: {fileID: 11472694}
-  FillBar: {fileID: 11431328}
-  Place: {fileID: 11495436}
-  Matchdata: {fileID: 0}
+  EyeFadeImage: {fileID: 0}
+  PlayerName: {fileID: 0}
+  PlayerScore: {fileID: 0}
 --- !u!114 &11472318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -245,12 +243,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 7443059047039404c93e12823894c10f, type: 3}
+    m_FontSize: 2
+    m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 1
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -278,12 +276,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 46
+    m_Font: {fileID: 12800000, guid: 7443059047039404c93e12823894c10f, type: 3}
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 300
+    m_MinSize: 1
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1

@@ -205,17 +205,17 @@ namespace Game.Networking
 
             ActionPointsRewardText.text = matchData.PlayerData.ActionPoints + " " + actionPointsRewardString;
 
-			//Changing displayed text accordingly to wronf/right answer
+			//Changing displayed text accordingly to wrong/right answer
 			if (!currentResponse.IsQuestionAnswered) {
 				QuestionResultText.text = QuestionIncorrectString;
-				shardsAwarded.text = matchData.CurrentGameMode.IncorrectAnswerPoints.ToString();
+				shardsAwarded.text = "+" + matchData.CurrentGameMode.IncorrectAnswerPoints.ToString();
 			}
 			else if (QuestionManager.ValidateAnswerKeyData (matchData.CurrentQuestion, currentResponse, false)) {
 				QuestionResultText.text = QuestionCorrectString;
-				shardsAwarded.text = matchData.CurrentGameMode.CorrectAnswerPoints.ToString();
-			} else {
+				shardsAwarded.text = "+" + matchData.CurrentGameMode.CorrectAnswerPoints.ToString();
+			} else {				
 				QuestionResultText.text = QuestionIncorrectString;
-				shardsAwarded.text = matchData.CurrentGameMode.IncorrectAnswerPoints.ToString();
+				shardsAwarded.text = "+" + matchData.CurrentGameMode.IncorrectAnswerPoints.ToString();
 			}
         }
 
