@@ -241,7 +241,7 @@ MonoBehaviour:
     EmissionColor: {r: 0.66101694, g: 0, b: 1, a: 1}
     EyeFadeColor: {r: 0.6627451, g: 0, b: 1, a: 1}
     Image: {fileID: 21300000, guid: bd97012097318c44e8e497a9deca1b3b, type: 3}
-    Name: Paas
+    Name: Paars
   - Id: 0
     EmissionColor: {r: 1, g: 0.46, b: 0, a: 1}
     EyeFadeColor: {r: 1, g: 0.38970593, b: 0, a: 1}

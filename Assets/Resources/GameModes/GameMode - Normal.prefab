@@ -42,9 +42,9 @@ MonoBehaviour:
   MatchData: {fileID: 0}
   MatchSceneManager: {fileID: 0}
   Name: Tile Conquer & Control
-  KillScore: 5
-  DieScore: -2
-  CorrectAnswerPoints: 5
+  KillScore: 0
+  DieScore: 0
+  CorrectAnswerPoints: 4
   IncorrectAnswerPoints: 2
   UpdateSpeed: 0.1
   IntroTime: 0

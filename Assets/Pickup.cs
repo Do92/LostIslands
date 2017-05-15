@@ -43,7 +43,7 @@ namespace Game
 				points.GetComponent<RisingText>().Setup ();
 				isColliding = true;
 				anim.SetBool ("PickedUp", true);
-
+				StartCoroutine (WaitForAnimation());
 				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (3);
 			
 			}
@@ -54,12 +54,12 @@ namespace Game
 				points.GetComponent<RisingText>().Setup ();
 				isColliding = true;
 				anim.SetBool ("Damage", true);
-
+				StartCoroutine (WaitForAnimation());
 				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (5);
 
 			}
 
-			StartCoroutine (WaitForAnimation());
+			//StartCoroutine (WaitForAnimation());
 
 		}
 	
