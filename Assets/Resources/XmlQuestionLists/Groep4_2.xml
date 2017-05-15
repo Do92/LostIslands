@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>Ik lach</OptionA>
+		<OptionB>Lachen</OptionB>
+		<OptionC>De peg</OptionC>
+		<OptionD>Toch</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>De peg moet de pech zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>Zich</OptionA>
+		<OptionB>De kachel</OptionB>
+		<OptionC>Giegelen</OptionC>
+		<OptionD>Dicht</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>Giegelen moet giechelen zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>Dicht</OptionA>
+		<OptionB>Ach</OptionB>
+		<OptionC>goochelen</OptionC>
+		<OptionD>juigen</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>juigen moet juichen zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>Kuggen</OptionA>
+		<OptionB>Vlucht</OptionB>
+		<OptionC>De jacht</OptionC>
+		<OptionD>Gracht</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>Kuggen moet kuchen zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>Het tauw</OptionA>
+		<OptionB>Oud</OptionB>
+		<OptionC>Ik zou</OptionC>
+		<OptionD>Ik wou</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>Tauw moet touw zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; werken</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>Twee klankgroepen: wer-ken</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; kinderboeken</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>Vier klankgroepen: kin-der-boe-ken</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; uitvinden</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>drie klankgroepen: uit-vin-den</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; paarden</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>Twee klankgroepen: paar-den</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; opmaken</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>Drie klankgroepen: op-ma-ken</Description>
+	</Question>
+</QuestionList>

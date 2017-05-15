@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Een zak snoep kost €3,45. Je betaald met €10. &#xA; Hoeveel euro krijg je terug? </QuestionText>
+		<OptionA>€6,45</OptionA>
+		<OptionB>€7,55</OptionB>
+		<OptionC>€6,55</OptionC>
+		<OptionD>€7,45</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>10 - 3,45 = 6,55</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Een bestuurbare auto kost €7,10. Je betaald met €10. &#xA; Hoeveel euro krijg je terug?</QuestionText>
+		<OptionA>€2,90</OptionA>
+		<OptionB>€3,90</OptionB>
+		<OptionC>€1,90</OptionC>
+		<OptionD>€2,80</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>10 - 7,10 = 2,90</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Een zak appels kost €4,20. Je betaald met €10. &#xA; Hoeveel euro krijg je terug?</QuestionText>
+		<OptionA>€7,80</OptionA>
+		<OptionB>€6,80</OptionB>
+		<OptionC>€4,80</OptionC>
+		<OptionD>€5,80</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>10 - 4,20 = 5,80</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Een bos bloemen kost €6,80. Je betaald met €10. &#xA; Hoeveel euro krijg je terug?</QuestionText>
+		<OptionA>€3,20</OptionA>
+		<OptionB>€4,20</OptionB>
+		<OptionC>€5,20</OptionC>
+		<OptionD>€6,20</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>10 - 6,80 = 3,20</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Een voetbal kost 8,95. Je betaald met €10. &#xA; Hoeveel euro krijg je terug?</QuestionText>
+		<OptionA>€1,05</OptionA>
+		<OptionB>€2,05</OptionB>
+		<OptionC>€2,15</OptionC>
+		<OptionD>€1,05</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>10 - 8,95 = 1,05</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Reken uit: Wat is 3 x 7?</QuestionText>
+		<OptionA>14</OptionA>
+		<OptionB>21</OptionB>
+		<OptionC>28</OptionC>
+		<OptionD>35</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>3 x 7 = 21</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Reken uit: Wat is 6 x 7?</QuestionText>
+		<OptionA>42</OptionA>
+		<OptionB>35</OptionB>
+		<OptionC>43</OptionC>
+		<OptionD>49</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>6 x 7 = 42</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Reken uit: Wat is 8 x 7?</QuestionText>
+		<OptionA>46</OptionA>
+		<OptionB>56</OptionB>
+		<OptionC>74</OptionC>
+		<OptionD>48</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>8 x 7 = 56</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Reken uit: Wat is 8 x 4?</QuestionText>
+		<OptionA>24</OptionA>
+		<OptionB>16</OptionB>
+		<OptionC>32</OptionC>
+		<OptionD>40</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>4 x 8 = 36</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Reken uit: Wat is 9 x 8?</QuestionText>
+		<OptionA>64</OptionA>
+		<OptionB>72</OptionB>
+		<OptionC>80</OptionC>
+		<OptionD>88</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>9 x 8 = 72</Description>
+	</Question>
+</QuestionList>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel is 7 + 8?</QuestionText>
+		<OptionA>14</OptionA>
+		<OptionB>15</OptionB>
+		<OptionC>16</OptionC>
+		<OptionD>17</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>7 + 8 = 15</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel is 9 + 3?</QuestionText>
+		<OptionA>12</OptionA>
+		<OptionB>14</OptionB>
+		<OptionC>15</OptionC>
+		<OptionD>11</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>9 + 3 = 12</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel is 8 + 5?</QuestionText>
+		<OptionA>14</OptionA>
+		<OptionB>13</OptionB>
+		<OptionC>12</OptionC>
+		<OptionD>15</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>8 + 5 = 13</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel is 6 + 6? </QuestionText>
+		<OptionA>10</OptionA>
+		<OptionB>14</OptionB>
+		<OptionC>16</OptionC>
+		<OptionD>12</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>6 + 6 = 12</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Reken uit: 9 + ___ = 10 </QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>9 + 1 = 10</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Reken uit: 7 + ___ = 10</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>7 + 3 = 10</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel is 13 + 4?</QuestionText>
+		<OptionA>17</OptionA>
+		<OptionB>18</OptionB>
+		<OptionC>15</OptionC>
+		<OptionD>19</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>13 + 4 = 17</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Reken uit: 1 + ___ = 10</QuestionText>
+		<OptionA>8</OptionA>
+		<OptionB>9</OptionB>
+		<OptionC>10</OptionC>
+		<OptionD>7</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>1 + 9 = 10</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel is 6 + 2 + 3? </QuestionText>
+		<OptionA>10</OptionA>
+		<OptionB>11</OptionB>
+		<OptionC>18</OptionC>
+		<OptionD>12</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>6 + 2 + 3 = 11</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel is 1 + 2 + 3?</QuestionText>
+		<OptionA>7</OptionA>
+		<OptionB>8</OptionB>
+		<OptionC>5</OptionC>
+		<OptionD>6</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>1 + 2 + 3 = 6</Description>
+	</Question>
+</QuestionList>

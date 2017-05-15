@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>schrijf</OptionA>
+		<OptionB>schaars</OptionB>
+		<OptionC>sgram</OptionC>
+		<OptionD>schop</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>sgram moet schram zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>srijver</OptionA>
+		<OptionB>schrift</OptionB>
+		<OptionC>schade</OptionC>
+		<OptionD>tijdschrift</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>scrijver moet schrijver zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>ik schaats</OptionA>
+		<OptionB>scherpe</OptionB>
+		<OptionC>schroef</OptionC>
+		<OptionD>ik srik</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>srik moet schrik zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>schrijfles</OptionA>
+		<OptionB>sreeuw</OptionB>
+		<OptionC>schrobben</OptionC>
+		<OptionD>school</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>sreeuw moet schreeuw zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>De vrouw</OptionA>
+		<OptionB>Het hout</OptionB>
+		<OptionC>De kaus</OptionC>
+		<OptionD>Het zout</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>Kaus moet kous zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Welk woord is fout geschreven?</QuestionText>
+		<OptionA>De tauwen</OptionA>
+		<OptionB>De fout</OptionB>
+		<OptionC>jou</OptionC>
+		<OptionD>stout</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>Tauwen moet touwen zijn</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; Ruiken</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>Twee klankgroepen: rui-ken</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; bril</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>Een klankgroep: bril</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; begrijpen</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>Drie klankgroepen: be-grij-pen</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Hoeveel klankgroepen komen voor in dit woord? &#xA; afbranden</QuestionText>
+		<OptionA>1</OptionA>
+		<OptionB>2</OptionB>
+		<OptionC>3</OptionC>
+		<OptionD>4</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>Drie klankgroepen: af-bran-den</Description>
+	</Question>
+</QuestionList>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuestionList>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Zet in de tegenwoordige tijd:		
-		Nu ____ hij zijn zusje.</QuestionText>
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; Nu ____ hij zijn zusje.</QuestionText>
 		<OptionA>missen</OptionA>
 		<OptionB>mis</OptionB>
 		<OptionC>mist</OptionC>
@@ -11,8 +10,7 @@
 		<Description>Nu mist hij zijn zusje</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Zet in de tegenwoordige tijd:		
-		De pinguin zegt dat ____ ik niet meer doen.</QuestionText>
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; De pinguin zegt dat ____ ik niet meer doen.</QuestionText>
 		<OptionA>zal</OptionA>
 		<OptionB>zul</OptionB>
 		<OptionC>zullen</OptionC>
@@ -21,8 +19,7 @@
 		<Description>De pinguin zegt dat zal ik niet meer doen.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Zet in de tegenwoordige tijd:		
-		Vandaag ____ we naar het strand</QuestionText>
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; Vandaag ____ we naar het strand</QuestionText>
 		<OptionA>Wilden</OptionA>
 		<OptionB>Wouden</OptionB>
 		<OptionC>Wil</OptionC>
@@ -31,7 +28,7 @@
 		<Description>Vandaag willen we naar het strand.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Zet in de verleden tijd:	Het bruidspaar ____ onder de bomen door</QuestionText>
+		<QuestionText>Zet in de verleden tijd:	&#xA;	Het bruidspaar ____ onder de bomen door</QuestionText>
 		<OptionA>Liep</OptionA>
 		<OptionB>Lopen</OptionB>
 		<OptionC>loopt</OptionC>
@@ -40,7 +37,7 @@
 		<Description>Het bruidspaar liep onder de bomen door.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Zet in de verleden tijd:	Na de plechtigheid ____ we getrakteerd</QuestionText>
+		<QuestionText>Zet in de verleden tijd:	&#xA;	Na de plechtigheid ____ we getrakteerd</QuestionText>
 		<OptionA>worden</OptionA>
 		<OptionB>werd</OptionB>
 		<OptionC>werden</OptionC>
@@ -49,7 +46,7 @@
 		<Description>Na de plechtigheid werden we getrakteerd.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Zet in de verleden tijd:	Toen ____ het meisje haar buurvrouw.</QuestionText>
+		<QuestionText>Zet in de verleden tijd:	&#xA;	Toen ____ het meisje haar buurvrouw.</QuestionText>
 		<OptionA>Ziet</OptionA>
 		<OptionB>Zag</OptionB>
 		<OptionC>Zien</OptionC>
@@ -58,16 +55,16 @@
 		<Description>Toen zag het meisje haar buurvrouw.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	De jongen vlucht naar het verlaten bos.</QuestionText>
+		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	&#xA;	De jongen vlucht naar het verlaten bos.</QuestionText>
 		<OptionA>1</OptionA>
 		<OptionB>2</OptionB>
 		<OptionC>3</OptionC>
 		<OptionD>4</OptionD>
-		<CorrectOption>b</CorrectOption>
+		<CorrectOption>a</CorrectOption>
 		<Description>Er komt 1 werkwoord voor in de zin. De jongen vlucht naar het verlaten bos.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	Ze vraagt aan de taxichauffeur om te rijden.</QuestionText>
+		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	&#xA;	Ze vraagt aan de taxichauffeur om te rijden.</QuestionText>
 		<OptionA>1</OptionA>
 		<OptionB>2</OptionB>
 		<OptionC>3</OptionC>
@@ -76,7 +73,7 @@
 		<Description>Er komen 2 werkwoorden voor in de zin. Ze vraagt aan de taxichauffeur om te rijden.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	Hij pakt de euro van de grond. </QuestionText>
+		<QuestionText>Hoeveel werkwoorden komen voor in deze zin:	&#xA; Hij pakt de euro van de grond. </QuestionText>
 		<OptionA>1</OptionA>
 		<OptionB>2</OptionB>
 		<OptionC>3</OptionC>
@@ -85,7 +82,7 @@
 		<Description>Er komt 1 werkwoord voor in de zin. Hij pakt de euro van de grond.</Description>
 	</Question>
 	<Question type="multipleChoiceItem">
-		<QuestionText>Zet in tegenwoordige tijd:	Je ____ je hoofd.</QuestionText>
+		<QuestionText>Zet in tegenwoordige tijd:	&#xA; Je ____ je hoofd.</QuestionText>
 		<OptionA>schud</OptionA>
 		<OptionB>schut</OptionB>
 		<OptionC>schudt</OptionC>
