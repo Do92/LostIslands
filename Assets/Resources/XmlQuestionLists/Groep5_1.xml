@@ -38,10 +38,10 @@
 	</Question>
 	<Question type="multipleChoiceItem">
 		<QuestionText>Een voetbal kost 8,95. Je betaald met €10. &#xA; Hoeveel euro krijg je terug?</QuestionText>
-		<OptionA>€1,05</OptionA>
+		<OptionA>€1,25</OptionA>
 		<OptionB>€2,05</OptionB>
-		<OptionC>€2,15</OptionC>
-		<OptionD>€1,05</OptionD>
+		<OptionC>€1,05</OptionC>
+		<OptionD>€1,15</OptionD>
 		<CorrectOption>c</CorrectOption>
 		<Description>10 - 8,95 = 1,05</Description>
 	</Question>
