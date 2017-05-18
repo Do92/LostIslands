@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; Hij ____ (programmeren) spellen.</QuestionText>
+		<OptionA>programmeer</OptionA>
+		<OptionB>programmeerd</OptionB>
+		<OptionC>programmeert</OptionC>
+		<OptionD>programmeerde</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>programmeert</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; Jan en anne ____ (proberen) het snoepje.</QuestionText>
+		<OptionA>probeert</OptionA>
+		<OptionB>probeerd</OptionB>
+		<OptionC>probeerden</OptionC>
+		<OptionD>proberen</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>proberen</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; Hoe ____ (verbreden) je je horizon?</QuestionText>
+		<OptionA>verbreden</OptionA>
+		<OptionB>verbreedt</OptionB>
+		<OptionC>verbreed</OptionC>
+		<OptionD>verbreede</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>Verbreed</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA;	Je ____ (worden) helemaal boos</QuestionText>
+		<OptionA>wordt</OptionA>
+		<OptionB>word</OptionB>
+		<OptionC>worden</OptionC>
+		<OptionD>werd</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>wordt</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA;	Tom ____ (krabbelen) een tekening</QuestionText>
+		<OptionA>krabbel</OptionA>
+		<OptionB>krabbeld</OptionB>
+		<OptionC>krabbelen</OptionC>
+		<OptionD>krabbelt</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>krabbelt</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; 	____ (schakelen)jij de politie in?</QuestionText>
+		<OptionA>schakelt</OptionA>
+		<OptionB>schakelen</OptionB>
+		<OptionC>schakel</OptionC>
+		<OptionD>schakeld</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>schakel</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; we ____ (applaudisseren) enthousiast!</QuestionText>
+		<OptionA>applaudisseerde</OptionA>
+		<OptionB>aplaudiseren</OptionB>
+		<OptionC>applaudisseerden</OptionC>
+		<OptionD>aplaudiseerden</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>applaudisseerden</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; We ____ (beleven) veel avonturen</QuestionText>
+		<OptionA>beleven</OptionA>
+		<OptionB>beleefden</OptionB>
+		<OptionC>beleeften</OptionC>
+		<OptionD>beleefde</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>beleefden</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; Tim en Anne ____ (promoten) de artiest </QuestionText>
+		<OptionA>promooten</OptionA>
+		<OptionB>promoten</OptionB>
+		<OptionC>promootten</OptionC>
+		<OptionD>promootden</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>promootten</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; Zij ____ (verwaarlozen) haar fiets </QuestionText>
+		<OptionA>verwaarloost</OptionA>
+		<OptionB>verwaarloosd</OptionB>
+		<OptionC>verwaarloosde</OptionC>
+		<OptionD>verwaarloosten</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>verwaarloosde</Description>
+	</Question>
+</QuestionList>

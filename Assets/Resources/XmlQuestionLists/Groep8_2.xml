@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionList>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; Het virus ____ (verspreiden) snel.</QuestionText>
+		<OptionA>verspreid</OptionA>
+		<OptionB>verspreidt</OptionB>
+		<OptionC>verspreide</OptionC>
+		<OptionD>verspreiden</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>verspreidt</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; Ze ____ (chanteren) haar broer.</QuestionText>
+		<OptionA>chanteert</OptionA>
+		<OptionB>chanteerd</OptionB>
+		<OptionC>chanteerde</OptionC>
+		<OptionD>chanteerdt</OptionD>
+		<CorrectOption>a</CorrectOption>
+		<Description>chanteert</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA; Maartje ____ (besteden) al haar geld aan kleding.</QuestionText>
+		<OptionA>besteden</OptionA>
+		<OptionB>besteet</OptionB>
+		<OptionC>besteed</OptionC>
+		<OptionD>besteedt</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>besteedt</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de tegenwoordige tijd:	&#xA;	De jongen ____ (laden) zijn mobiel op.</QuestionText>
+		<OptionA>laad</OptionA>
+		<OptionB>laadt</OptionB>
+		<OptionC>laadde</OptionC>
+		<OptionD>laat</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>laadt</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA;	Ze ____ (scbieten) niet op.</QuestionText>
+		<OptionA>schieten</OptionA>
+		<OptionB>schietten</OptionB>
+		<OptionC>schoten</OptionC>
+		<OptionD>schiette</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>schoten</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; Nadia	____ (wijzen) de anderen aan</QuestionText>
+		<OptionA>wijste</OptionA>
+		<OptionB>wijsten</OptionB>
+		<OptionC>wezen</OptionC>
+		<OptionD>wees</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>wees</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; Ze voelde dat ze ____ (blozen)</QuestionText>
+		<OptionA>blooste</OptionA>
+		<OptionB>bloste</OptionB>
+		<OptionC>bloosde</OptionC>
+		<OptionD>bloosd</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>bloosde</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; Ik ____ (hopen) dat ze bleef</QuestionText>
+		<OptionA>hoopde</OptionA>
+		<OptionB>hoopte</OptionB>
+		<OptionC>hoopden</OptionC>
+		<OptionD>hoop</OptionD>
+		<CorrectOption>b</CorrectOption>
+		<Description>hoopte</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; De vogel ____ (azen) op haar prooi </QuestionText>
+		<OptionA>aast</OptionA>
+		<OptionB>aasd</OptionB>
+		<OptionC>aasde</OptionC>
+		<OptionD>aaste</OptionD>
+		<CorrectOption>c</CorrectOption>
+		<Description>aasde</Description>
+	</Question>
+	<Question type="multipleChoiceItem">
+		<QuestionText>Zet in de verleden tijd:	&#xA; Zij ____ (praten) gisteren over het optreden </QuestionText>
+		<OptionA>praten</OptionA>
+		<OptionB>praatden</OptionB>
+		<OptionC>praaten</OptionC>
+		<OptionD>praatten</OptionD>
+		<CorrectOption>d</CorrectOption>
+		<Description>praatten</Description>
+	</Question>
+</QuestionList>

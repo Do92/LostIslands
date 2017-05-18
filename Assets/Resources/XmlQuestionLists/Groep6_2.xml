@@ -30,7 +30,7 @@
 	<Question type="multipleChoiceItem">
 		<QuestionText>Zet in de verleden tijd:	&#xA;	Het bruidspaar ____ onder de bomen door</QuestionText>
 		<OptionA>Liep</OptionA>
-		<OptionB>Lopen</OptionB>
+		<OptionB>liepen</OptionB>
 		<OptionC>loopt</OptionC>
 		<OptionD>liept</OptionD>
 		<CorrectOption>a</CorrectOption>
