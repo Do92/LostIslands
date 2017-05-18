@@ -170,8 +170,9 @@ namespace Game
 		public void Push(DirectionType direction)
 		{
 			characterAvatar.SetBool ("bumpCheck", true);
-			GameObject particle = (GameObject)GameObject.Instantiate(pushParticle, transform.position, Quaternion.identity);
+			GameObject particle = (GameObject)GameObject.Instantiate(pushParticle, new Vector3 (transform.position.x, (transform.position.y + 2.0f), transform.position.z), Quaternion.identity);
 			Move(direction, Position, MoveActionType.Pushing);
+			characterAvatar.SetBool ("bumpCheck", false);
 
 		}
 

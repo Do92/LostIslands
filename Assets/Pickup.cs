@@ -43,6 +43,7 @@ namespace Game
 				points.GetComponent<RisingText>().Setup ();
 				isColliding = true;
 				anim.SetBool ("PickedUp", true);
+				Debug.Log ("Picking uuuup");
 				StartCoroutine (WaitForAnimation());
 				matchData.GetPlayerData (other.gameObject.GetComponent<Player>().PlayerId).AddScore (3);
 			

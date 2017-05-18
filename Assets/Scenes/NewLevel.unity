@@ -5992,7 +5992,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22468294, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 22468294, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -6034,13 +6034,25 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11442950, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
+      propertyPath: RotatingRobot
+      value: 
+      objectReference: {fileID: 168249562}
     - target: {fileID: 11455964, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
       propertyPath: MenuPanelManager
       value: 
       objectReference: {fileID: 159275256}
-    - target: {fileID: 22490726, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
+    - target: {fileID: 22463424, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -16.899902
+      value: -0.11010742
+      objectReference: {fileID: 0}
+    - target: {fileID: 22484154, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -99.900024
+      objectReference: {fileID: 0}
+    - target: {fileID: 22484154, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.100097656
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07a7d3c5d698e9c4297fcd6de28ddf8e, type: 2}

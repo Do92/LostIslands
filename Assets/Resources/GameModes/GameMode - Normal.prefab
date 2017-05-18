@@ -51,13 +51,13 @@ MonoBehaviour:
   InstructionTime: 0
   RegularFadeTime: 1
   BuildTime: 6
-  QuestionPrepareTime: 4
-  QuestionMaxTime: 15
-  QuestionResultTime: 3
+  QuestionPrepareTime: 3
+  QuestionMaxTime: 14
+  QuestionResultTime: 4
   TurnTimePerMove: 6
   WaitForQuestionTime: 1
-  QuestionFadeTime: 1.5
-  endscreenTime: 3
+  QuestionFadeTime: 1
+  endscreenTime: 4
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
