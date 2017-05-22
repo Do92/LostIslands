@@ -148,14 +148,17 @@ namespace Game
                 {
                     if (otherPlayer.Position == newPlayerPosition)
                     {
+						Animator playerAnimator = player.GetComponentInChildren<Animator>();
+						playerAnimator.SetBool ("bumpCheck", true);
                         if(player.pushParticle != null)
-                            Instantiate(player.pushParticle, player.transform.position, player.transform.rotation);
+							Instantiate(player.pushParticle, new Vector3 (player.transform.position.x, (player.transform.position.y + 2.0f), player.transform.position.z), player.transform.rotation);
 
                         pushedPlayers.Add(otherPlayer);
                         newPlayerPosition = newPlayerPosition.GetRelative(direction);
 
                         hasPushed = true;
                         hasPushedOpponent = true;
+						playerAnimator.SetBool ("bumpCheck", false);
                         break;
                     }
                 }

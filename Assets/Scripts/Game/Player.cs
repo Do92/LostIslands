@@ -45,7 +45,7 @@ namespace Game
 			}
 		}
 
-		public bool Debug = false;
+		//public bool Debug = false;
 
 		[HideInInspector]
 		public int PlayerId { get; private set; }
@@ -134,8 +134,10 @@ namespace Game
 			lastPusher = playerId;
 		}
 
-		// Movement & Animation
-
+		// Movement & Animation 
+		//----------------------------------------------------------
+		//ALL INACTIVE!!!
+		//----------------------------------------------------------
 		// Teleport with first spawn animation
 		public void DoInitialMove(Vector2 position)
 		{
@@ -169,10 +171,10 @@ namespace Game
 		// Push animation
 		public void Push(DirectionType direction)
 		{
-			characterAvatar.SetBool ("bumpCheck", true);
-			GameObject particle = (GameObject)GameObject.Instantiate(pushParticle, new Vector3 (transform.position.x, (transform.position.y + 2.0f), transform.position.z), Quaternion.identity);
-			Move(direction, Position, MoveActionType.Pushing);
-			characterAvatar.SetBool ("bumpCheck", false);
+			//characterAvatar.SetBool ("bumpCheck", true);
+			//GameObject particle = (GameObject)GameObject.Instantiate(pushParticle, new Vector3 (transform.position.x, (transform.position.y + 2.0f), transform.position.z), transform.rotation);
+			//Move(direction, Position, MoveActionType.Pushing);
+			//characterAvatar.SetBool ("bumpCheck", false);
 
 		}
 
@@ -210,8 +212,8 @@ namespace Game
 		// If called on a server it will automatically do this on all clients
 		private void Move(DirectionType newDirection, Vector2 newPosition, MoveActionType moveAction)
 		{
-			if (Debug)
-				UnityEngine.Debug.Log("Move: " + newDirection + ":" + newPosition + ":" + moveAction);
+			//if (Debug)
+				//UnityEngine.Debug.Log("Move: " + newDirection + ":" + newPosition + ":" + moveAction);
 
 			// Prepare a rotational move behaviour
 			if (moveAction != MoveActionType.Pushed && moveAction != MoveActionType.Die && moveAction != MoveActionType.Spawn)
@@ -235,6 +237,9 @@ namespace Game
 		}
 
 		// Animation enumerator, will automatically play animations when added to the moves list
+		//----------------------------------------------------------------------------
+		//NOTHING OF THE FOLLOWING IS EVER CALLED IN THE CURRENT VERSION OF THE GAME refer to Level.cs
+		//---------------------------------------------------------------------------
 		private IEnumerator MoveAnimator()
 		{
 			while (true)
@@ -265,6 +270,7 @@ namespace Game
 						}
 
 						break;
+					
 					case MoveActionType.Rotate:
 
 						if (currentDirection == moveAnimation.Direction)
