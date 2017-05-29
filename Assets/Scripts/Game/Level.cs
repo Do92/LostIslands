@@ -158,7 +158,7 @@ namespace Game
 
                         hasPushed = true;
                         hasPushedOpponent = true;
-						playerAnimator.SetBool ("bumpCheck", false);
+						//playerAnimator.SetBool ("bumpCheck", false);
                         break;
                     }
                 }

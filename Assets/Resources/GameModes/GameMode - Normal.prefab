@@ -41,7 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MatchData: {fileID: 0}
   MatchSceneManager: {fileID: 0}
-  Name: Tile Conquer & Control
+  Name: Island Healing
   KillScore: 0
   DieScore: 0
   CorrectAnswerPoints: 4
